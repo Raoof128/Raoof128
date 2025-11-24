@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Raoof128/Raoof128/main/matrix-cyber-banner.svg" alt="Cyber Banner"/>
+  <img src="Assests/Header.jpg" alt="Cyberpunk Header" width="100%">
 </p>
 
 <h1 align="center">💚 Raouf — Cybersecurity & AI Security Engineer</h1>
