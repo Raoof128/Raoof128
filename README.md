@@ -130,6 +130,5 @@ Quantum risk scanner for Australian org crypto inventories.
 📫 Email — raoof.r12@gmail.com  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloud.png" width="80%">
-  <br/>Made with 💚, caffeine, and suspicious logs.
+  <img src="Assests/Footer.jpg" alt="Cyberpunk Footer" width="100%">
 </p>
