@@ -58,12 +58,6 @@ I love:
 
 ---
 
-# 🌌 Neon Cyber Aesthetic Divider  
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="80%">
-</p>
-
----
 
 # 📁 Collapsible Project Sections  
 
@@ -127,26 +121,6 @@ AU open banking (FAPI), TLS, OAuth testing suite.
 Quantum risk scanner for Australian org crypto inventories.
 
 </details>
-
----
-
-# 🐍 Contribution Snake Animation 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Raoof128/Raoof128/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</p>
-
-# ⚡ Cyberpunk Glitch Effect Banner
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Raoof128/Raoof128/main/cyberpunk-glitch.gif" width="80%" />
-</p>
-
-# 📊 Analytics  
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Raoof128&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-<img src="https://nirzak-streak-stats.vercel.app/?user=Raoof128&theme=tokyonight&hide_border=true" height="160"/>
-<br/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raoof128&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</div>
 
 ---
 
