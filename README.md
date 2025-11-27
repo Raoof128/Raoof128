@@ -21,7 +21,7 @@ I love:
 
 ---
 
-# ⚡ Animated Skill Badges  
+# ⚡ Skills
 
 ### 🛠 Languages  
 <p>
@@ -59,7 +59,7 @@ I love:
 ---
 
 
-# 📁 Collapsible Project Sections  
+# 📁  Projects 
 
 ## 🔥 Core Security Labs  
 <details>
