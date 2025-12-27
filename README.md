@@ -11,7 +11,7 @@
 
 ## ✨ About Me
 
-I'm a cybersecurity & AI-security engineer-in-progress obsessed with building **SOC pipelines**, **detection engines**, **AI threat tools**, and **full attack–defence simulations** (cloud, AD, honeypots, satellite, PQC… the whole buffet).
+I'm a cybersecurity & AI-security engineer-in-progress obsessed with building **SOC pipelines**, **detection engines**, **AI threat tools**, and **full attack–defence simulations** (cloud, AD, hybrid).  
 
 I love:
 - Turning chaos into automation  
@@ -27,9 +27,13 @@ I love:
 <p>
   <img src="https://skillicons.dev/icons?i=python&theme=light" />
   <img src="https://skillicons.dev/icons?i=js" />
+  <img src="https://skillicons.dev/icons?i=ts" />
   <img src="https://skillicons.dev/icons?i=bash" />
   <img src="https://skillicons.dev/icons?i=powershell" />
   <img src="https://skillicons.dev/icons?i=cpp" />
+  <img src="https://skillicons.dev/icons?i=cs" />
+  <img src="https://skillicons.dev/icons?i=go" />
+  <img src="https://skillicons.dev/icons?i=solidity" />
 </p>
 
 ### 🧠 AI / ML  
