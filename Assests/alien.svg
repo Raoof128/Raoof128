@@ -1,0 +1,235 @@
+<svg viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Palette gradients -->
+    <linearGradient id="divider" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#09090b"/>
+      <stop offset="15%"  stop-color="#06b6d4" stop-opacity="0.9"/>
+      <stop offset="50%"  stop-color="#8b5cf6" stop-opacity="0.7"/>
+      <stop offset="85%"  stop-color="#f59e0b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#06b6d4" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#06b6d4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%"   stop-color="#0f1115" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#09090b" stop-opacity="0.8"/>
+    </radialGradient>
+
+    <!-- Glow filters -->
+    <filter id="glow-cyan" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-sm" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-eye" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Background patterns -->
+    <pattern id="scanlines" x="0" y="0" width="1200" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1200" height="1" y="3" fill="#ffffff" fill-opacity="0.02"/>
+    </pattern>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.4" stroke-opacity="0.035"/>
+    </pattern>
+
+    <style>
+      .mc { font: bold 14px 'Courier New',Courier,monospace; }
+
+      /* Eye blink — scaleY around the eye's own centre */
+      .eye-group {
+        transform-box: fill-box;
+        transform-origin: 50% 50%;
+        animation: blink 4s ease-in-out infinite;
+      }
+      @keyframes blink {
+        0%, 88%, 100% { transform: scaleY(1); }
+        93%           { transform: scaleY(0.06); }
+        97%           { transform: scaleY(1); }
+      }
+
+      /* Antenna tip pulse (opposite phase left/right) */
+      .ant-tip-l { animation: pulse 1.2s ease-in-out infinite; }
+      .ant-tip-r { animation: pulse 1.2s ease-in-out infinite 0.6s; }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.45; }
+        50%      { opacity: 1.0; }
+      }
+
+      /* Arm hex-text flicker */
+      .arm-l { animation: flicker 2.1s ease-in-out infinite; }
+      .arm-r { animation: flicker 2.1s ease-in-out infinite 1.05s; }
+      @keyframes flicker {
+        0%, 44%, 56%, 84%, 92%, 100% { opacity: 1.0; }
+        50%                          { opacity: 0.25; }
+        88%                          { opacity: 0.55; }
+      }
+    </style>
+  </defs>
+
+  <!-- ─── Background ─── -->
+  <rect width="1200" height="200" fill="#09090b"/>
+  <rect width="1200" height="200" fill="url(#grid)"/>
+  <rect width="1200" height="200" fill="url(#vignette)"/>
+
+  <!-- ─── Matrix rain (3 faint columns) ─── -->
+  <g class="mc">
+    <text x="80"  y="16"  fill="#0b1e22">0</text><text x="80"  y="32"  fill="#0c2429">1</text>
+    <text x="80"  y="48"  fill="#0d2b31">A</text><text x="80"  y="64"  fill="#0e333a">F</text>
+    <text x="80"  y="80"  fill="#103c44">0</text><text x="80"  y="96"  fill="#12454f">1</text>
+    <text x="80"  y="112" fill="#144f5b">B</text><text x="80"  y="128" fill="#165968">C</text>
+    <text x="80"  y="144" fill="#186474">0</text><text x="80"  y="160" fill="#1a6f81">A</text>
+    <text x="80"  y="176" fill="#1c7a8f">1</text><text x="80"  y="192" fill="#06b6d4" filter="url(#glow-sm)">F</text>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate"
+      from="0 -192" to="0 200" dur="3.8s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <g class="mc">
+    <text x="650" y="16"  fill="#0b1e22">F</text><text x="650" y="32"  fill="#0c2429">0</text>
+    <text x="650" y="48"  fill="#0d2b31">B</text><text x="650" y="64"  fill="#0e333a">1</text>
+    <text x="650" y="80"  fill="#103c44">C</text><text x="650" y="96"  fill="#12454f">0</text>
+    <text x="650" y="112" fill="#144f5b">A</text><text x="650" y="128" fill="#165968">1</text>
+    <text x="650" y="144" fill="#186474">D</text><text x="650" y="160" fill="#1a6f81">0</text>
+    <text x="650" y="176" fill="#1c7a8f">B</text><text x="650" y="192" fill="#f59e0b" filter="url(#glow-sm)">1</text>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate"
+      from="0 -192" to="0 200" dur="4.5s" begin="-2.1s" repeatCount="indefinite"/>
+  </g>
+  <g class="mc">
+    <text x="1100" y="16"  fill="#0b1e22">1</text><text x="1100" y="32"  fill="#0c2429">C</text>
+    <text x="1100" y="48"  fill="#0d2b31">0</text><text x="1100" y="64"  fill="#0e333a">A</text>
+    <text x="1100" y="80"  fill="#103c44">F</text><text x="1100" y="96"  fill="#12454f">1</text>
+    <text x="1100" y="112" fill="#144f5b">B</text><text x="1100" y="128" fill="#165968">0</text>
+    <text x="1100" y="144" fill="#186474">E</text><text x="1100" y="160" fill="#1a6f81">1</text>
+    <text x="1100" y="176" fill="#1c7a8f">A</text><text x="1100" y="192" fill="#8b5cf6" filter="url(#glow-sm)">0</text>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate"
+      from="0 -192" to="0 200" dur="5.2s" begin="-1.4s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- ─── Scanline sweep ─── -->
+  <rect x="0" y="-8" width="1200" height="8" fill="url(#scanGrad)" opacity="0.6">
+    <animate attributeName="y" from="-8" to="208" dur="5s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <rect width="1200" height="200" fill="url(#scanlines)"/>
+
+  <!-- ═══════════════════ ALIEN CHARACTER ═══════════════════ -->
+  <!-- Outer group: walk left → right, 14 s loop              -->
+  <g id="alien">
+    <animateTransform attributeName="transform" attributeType="XML" type="translate"
+      from="-250 0" to="1250 0" dur="14s" repeatCount="indefinite"/>
+
+    <!-- Inner group: body bob ±4 px vertical, 0.6 s          -->
+    <g id="bob">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        values="0,0; 0,4; 0,0; 0,-4; 0,0"
+        keyTimes="0;0.25;0.5;0.75;1"
+        dur="0.6s" repeatCount="indefinite"/>
+
+      <!-- ── LEGS — drawn before body so shell overlaps roots ── -->
+      <!-- Front pair (phase A — left up, right down) -->
+      <line x1="-18" y1="142" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="x2" values="-28;-8;-28"   dur="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="168;178;168"   dur="0.6s" repeatCount="indefinite"/>
+      </line>
+      <line x1="18"  y1="142" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="x2" values="8;28;8"        dur="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="178;168;178"   dur="0.6s" repeatCount="indefinite"/>
+      </line>
+
+      <!-- Mid pair (phase B — offset by -0.15s) -->
+      <line x1="-36" y1="137" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="x2" values="-26;-46;-26"  dur="0.6s" repeatCount="indefinite" begin="-0.15s"/>
+        <animate attributeName="y2" values="178;168;178"  dur="0.6s" repeatCount="indefinite" begin="-0.15s"/>
+      </line>
+      <line x1="36"  y1="137" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="x2" values="46;26;46"     dur="0.6s" repeatCount="indefinite" begin="-0.15s"/>
+        <animate attributeName="y2" values="168;178;168"  dur="0.6s" repeatCount="indefinite" begin="-0.15s"/>
+      </line>
+
+      <!-- Back pair (phase A — same as front, offset by -0.3s) -->
+      <line x1="-51" y1="126" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="x2" values="-61;-41;-61"  dur="0.6s" repeatCount="indefinite" begin="-0.3s"/>
+        <animate attributeName="y2" values="160;170;160"  dur="0.6s" repeatCount="indefinite" begin="-0.3s"/>
+      </line>
+      <line x1="51"  y1="126" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="x2" values="41;61;41"     dur="0.6s" repeatCount="indefinite" begin="-0.3s"/>
+        <animate attributeName="y2" values="170;160;170"  dur="0.6s" repeatCount="indefinite" begin="-0.3s"/>
+      </line>
+
+      <!-- ── ANTENNAS — drawn before body so dome overlaps bases ── -->
+      <!-- Left stalk -->
+      <line x1="-19" y1="72" stroke="#06b6d4" stroke-width="2" stroke-linecap="round">
+        <animate attributeName="x2" values="-30;-22;-30" dur="1s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="48;44;48"    dur="1s" repeatCount="indefinite"/>
+      </line>
+      <!-- Left tip (glowing cyan dot, pulsing) -->
+      <circle class="ant-tip-l" cx="-30" cy="47" r="5.5" fill="#06b6d4" filter="url(#glow-sm)">
+        <animate attributeName="cx" values="-31;-23;-31" dur="1s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="47;43;47"    dur="1s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Right stalk -->
+      <line x1="19" y1="72" stroke="#06b6d4" stroke-width="2" stroke-linecap="round">
+        <animate attributeName="x2" values="22;30;22" dur="1s" repeatCount="indefinite"/>
+        <animate attributeName="y2" values="44;48;44" dur="1s" repeatCount="indefinite"/>
+      </line>
+      <!-- Right tip -->
+      <circle class="ant-tip-r" cx="23" cy="43" r="5.5" fill="#06b6d4" filter="url(#glow-sm)">
+        <animate attributeName="cx" values="23;31;23" dur="1s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="43;47;43" dur="1s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- ── BODY SHELL ── -->
+      <ellipse cx="0" cy="108" rx="58" ry="42"
+        fill="#0f1115" stroke="#06b6d4" stroke-width="2.5" filter="url(#glow-cyan)"/>
+
+      <!-- Crustacean shell segments -->
+      <path d="M-55,108 Q-38,100 -18,105 Q0,110 18,105 Q38,100 55,108"
+        fill="none" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.4"/>
+      <path d="M-50,120 Q-33,113 -15,117 Q0,120 15,117 Q33,113 50,120"
+        fill="none" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.3"/>
+
+      <!-- Shell highlight (specular) -->
+      <ellipse cx="-7" cy="84" rx="18" ry="9" fill="#06b6d4" fill-opacity="0.06"/>
+
+      <!-- ── GIANT EYE ── -->
+      <g class="eye-group">
+        <!-- Ambient glow halo -->
+        <circle cx="0" cy="95" r="30" fill="#06b6d4" fill-opacity="0.07" filter="url(#glow-eye)"/>
+        <!-- Sclera (dark outer ring) -->
+        <circle cx="0" cy="95" r="24" fill="#09090b" stroke="#06b6d4" stroke-width="2.5"/>
+        <!-- Iris -->
+        <circle cx="0" cy="95" r="19" fill="#22d3ee"/>
+        <!-- Mid iris depth ring -->
+        <circle cx="0" cy="95" r="13" fill="#0891b2"/>
+        <!-- Pupil -->
+        <circle cx="0" cy="95" r="8"  fill="#09090b"/>
+        <!-- Specular highlights -->
+        <circle cx="6"  cy="88" r="4"   fill="#ffffff" fill-opacity="0.55"/>
+        <circle cx="-9" cy="101" r="2.5" fill="#ffffff" fill-opacity="0.20"/>
+      </g>
+
+      <!-- ── ARM HEX TEXTS (flicker) ── -->
+      <text class="arm-l" x="-110" y="115"
+        font-family="'Courier New',Courier,monospace"
+        font-size="13" font-weight="bold"
+        fill="#f59e0b" filter="url(#glow-sm)">{0x4F}</text>
+      <text class="arm-r" x="64" y="115"
+        font-family="'Courier New',Courier,monospace"
+        font-size="13" font-weight="bold"
+        fill="#f59e0b" filter="url(#glow-sm)">{0x13}</text>
+
+      <!-- ── UNDERBELLY wavy line ── -->
+      <path d="M-55,132 Q-38,142 -20,134 Q-5,126 5,134 Q22,142 40,134 Q52,126 55,132"
+        fill="none" stroke="#06b6d4" stroke-width="1.5" stroke-opacity="0.45"/>
+    </g>
+  </g>
+
+  <!-- ─── Border dividers (matches header) ─── -->
+  <rect x="0" y="0"   width="1200" height="2" fill="url(#divider)"/>
+  <rect x="0" y="198" width="1200" height="2" fill="url(#divider)"/>
+</svg>
