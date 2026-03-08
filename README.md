@@ -115,17 +115,19 @@
 
 <br/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Raoof128&show_icons=true&bg_color=09090b&title_color=06b6d4&text_color=e4e4e7&icon_color=f59e0b&border_color=06b6d4&border_radius=0&count_private=true&include_all_commits=true"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Raoof128&theme=github_dark" width="100%"/>
+
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Raoof128&theme=github_dark" height="160em"/>
 &nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raoof128&layout=compact&bg_color=09090b&title_color=06b6d4&text_color=e4e4e7&border_color=06b6d4&border_radius=0&langs_count=8"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Raoof128&theme=github_dark" height="160em"/>
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Raoof128&theme=github_dark" height="160em"/>
 
 <br/>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=09090b&border=06b6d4&stroke=06b6d4&ring=8b5cf6&fire=f59e0b&currStreakLabel=06b6d4&sideLabels=06b6d4&dates=e4e4e7&border_radius=0)](https://git.io/streak-stats)
-
-<br/>
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=Raoof128&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
