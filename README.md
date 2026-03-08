@@ -1,23 +1,23 @@
 <!-- ══════════════════════════════ HEADER ══════════════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:003300,100:00ff41&height=220&section=header&text=RAOUF%20ABEDINI&fontSize=62&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20%26%20AI%20Security%20Engineer&descAlignY=58&descSize=22&descColor=00ff41&animation=fadeIn&stroke=00ff41&strokeWidth=2" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,40:06b6d4,70:8b5cf6,100:09090b&height=220&section=header&text=RAOUF%20ABEDINI&fontSize=62&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20%26%20AI%20Security%20Engineer&descAlignY=58&descSize=22&descColor=06b6d4&animation=fadeIn" width="100%"/>
 </div>
 
-<!-- Typing animation -->
+<!-- Typing animation — JetBrains Mono, cyan -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=700&color=00FF41&center=true&vCenter=true&width=860&lines=Red+Team+%7C+Blue+Team+%7C+Purple+Team;Breaking+Systems.+Building+Defences.;Automating+Everything.+Shipping+the+Future.;SOC+%7C+Detection+Engineering+%7C+Threat+Intel;LLM+Security+%7C+Adversarial+AI+%7C+Cloud+Red+Team)](https://readme-typing-svg.demolab.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=700&color=06B6D4&center=true&vCenter=true&width=860&lines=Red+Team+%7C+Blue+Team+%7C+Purple+Team;Breaking+Systems.+Building+Defences.;Automating+Everything.+Shipping+the+Future.;SOC+%7C+Detection+Engineering+%7C+Threat+Intel;LLM+Security+%7C+Adversarial+AI+%7C+Cloud+Red+Team)](https://readme-typing-svg.demolab.com)
 
 </div>
 
-<!-- Social badges -->
+<!-- Social badges — cyan/amber/purple palette from portfolio -->
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00FF41?style=for-the-badge&logo=googlechrome&logoColor=black)](https://raoof128.github.io/Portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raoof128)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raoof.r12@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Raoof128&color=00ff41&style=for-the-badge&label=VISITORS)](https://github.com/Raoof128)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-06b6d4?style=for-the-badge&logo=linkedin&logoColor=09090b)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff)](https://raoof128.github.io/Portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-0f1115?style=for-the-badge&logo=github&logoColor=06b6d4)](https://github.com/Raoof128)
+[![Email](https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=09090b)](mailto:raoof.r12@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=Raoof128&color=06b6d4&style=for-the-badge&label=VISITORS)](https://github.com/Raoof128)
 
 </div>
 
@@ -27,6 +27,11 @@
 <div align="center">
   <img src="Assests/terminal.svg" width="98%" alt="Terminal Animation"/>
 </div>
+
+<br/>
+
+<!-- Portfolio section divider: cyan → purple → amber -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
 
 <br/>
 
@@ -51,6 +56,11 @@
 
 <br/>
 
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+
+<br/>
+
 <!-- ══════════════════════════════ SKILLS ══════════════════════════════ -->
 <div align="center">
 
@@ -66,9 +76,9 @@
 
 [![AI/ML](https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark)](https://skillicons.dev)
 &nbsp;
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](#)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](#)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](#)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-f59e0b?style=flat-square&logo=scikitlearn&logoColor=09090b)](#)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-8b5cf6?style=flat-square&logo=huggingface&logoColor=ffffff)](#)
+[![LangChain](https://img.shields.io/badge/LangChain-06b6d4?style=flat-square&logo=langchain&logoColor=09090b)](#)
 
 **[ CLOUD & DEVOPS ]**
 
@@ -76,20 +86,25 @@
 
 **[ SECURITY TOOLING ]**
 
-[![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](#)
-[![Metasploit](https://img.shields.io/badge/Metasploit-ED1C24?style=for-the-badge&logoColor=white)](#)
-[![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logoColor=white)](#)
-[![Wazuh](https://img.shields.io/badge/Wazuh-3AAFA9?style=for-the-badge&logoColor=white)](#)
-[![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)](#)
-[![Elastic](https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white)](#)
+[![Kali Linux](https://img.shields.io/badge/Kali_Linux-06b6d4?style=for-the-badge&logo=kalilinux&logoColor=09090b)](#)
+[![Metasploit](https://img.shields.io/badge/Metasploit-f59e0b?style=for-the-badge&logoColor=09090b)](#)
+[![Burp Suite](https://img.shields.io/badge/Burp_Suite-8b5cf6?style=for-the-badge&logoColor=ffffff)](#)
+[![Wazuh](https://img.shields.io/badge/Wazuh-06b6d4?style=for-the-badge&logoColor=09090b)](#)
+[![Splunk](https://img.shields.io/badge/Splunk-f59e0b?style=for-the-badge&logo=splunk&logoColor=09090b)](#)
+[![Elastic](https://img.shields.io/badge/Elastic-8b5cf6?style=for-the-badge&logo=elastic&logoColor=ffffff)](#)
 
-[![Zeek](https://img.shields.io/badge/Zeek-0070C0?style=for-the-badge&logoColor=white)](#)
-[![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logoColor=white)](#)
-[![YARA](https://img.shields.io/badge/YARA-222222?style=for-the-badge&logoColor=lime)](#)
-[![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)](#)
-[![Nmap](https://img.shields.io/badge/Nmap-4D4D4D?style=for-the-badge&logoColor=white)](#)
+[![Zeek](https://img.shields.io/badge/Zeek-06b6d4?style=for-the-badge&logoColor=09090b)](#)
+[![Suricata](https://img.shields.io/badge/Suricata-f59e0b?style=for-the-badge&logoColor=09090b)](#)
+[![YARA](https://img.shields.io/badge/YARA-8b5cf6?style=for-the-badge&logoColor=ffffff)](#)
+[![Wireshark](https://img.shields.io/badge/Wireshark-06b6d4?style=for-the-badge&logo=wireshark&logoColor=09090b)](#)
+[![Nmap](https://img.shields.io/badge/Nmap-f59e0b?style=for-the-badge&logoColor=09090b)](#)
 
 </div>
+
+<br/>
+
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
 
 <br/>
 
@@ -100,19 +115,24 @@
 
 <br/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Raoof128&show_icons=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=00ff41&border_radius=8&count_private=true&include_all_commits=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Raoof128&show_icons=true&bg_color=09090b&title_color=06b6d4&text_color=e4e4e7&icon_color=f59e0b&border_color=06b6d4&border_radius=0&count_private=true&include_all_commits=true"/>
 &nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raoof128&layout=compact&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&border_radius=8&langs_count=8"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raoof128&layout=compact&bg_color=09090b&title_color=06b6d4&text_color=e4e4e7&border_color=06b6d4&border_radius=0&langs_count=8"/>
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=terminal&background=0d1117&border=00ff41&stroke=00ff41&ring=00ff41&fire=ff6600&currStreakLabel=00ff41&sideLabels=00ff41&dates=c9d1d9&border_radius=8)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=09090b&border=06b6d4&stroke=06b6d4&ring=8b5cf6&fire=f59e0b&currStreakLabel=06b6d4&sideLabels=06b6d4&dates=e4e4e7&border_radius=0)](https://git.io/streak-stats)
 
 <br/>
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=Raoof128&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![Trophies](https://github-profile-trophy.vercel.app/?username=Raoof128&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
+
+<br/>
+
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
 
 <br/>
 
@@ -127,7 +147,7 @@
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Raoof128/Raoof128/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </picture>
 
-> ⚡ Auto-generated every 12 hours via GitHub Actions — run the **Generate Snake Animation** workflow once manually to activate.
+> ⚡ Auto-generated every 12 hours — trigger **Generate Snake Animation** workflow once to activate.
 
 </div>
 
@@ -138,9 +158,14 @@
 
 ### `> htop --graph`
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Raoof128&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=003300&border_color=00ff41&custom_title=Commit%20Activity%20%7C%20Raoof128&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Raoof128&bg_color=09090b&color=06b6d4&line=8b5cf6&point=f59e0b&area=true&area_color=06b6d4&border_color=06b6d4&custom_title=Commit%20Activity%20%7C%20Raoof128&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
+
+<br/>
+
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
 
 <br/>
 
@@ -155,13 +180,13 @@
 <tr>
 <td valign="top" width="50%">
 
-#### 🔥 Core Security Labs
+#### 🔐 Core Security Labs
 
 > **🧩 Active Directory Attack & Defence Lab**
-> Purple-team simulation — AS-REP roasting, kerberoasting, DC-sync, Pass-the-Hash correlated through Sysmon + Wazuh
+> Purple-team: AS-REP roasting, kerberoasting, DC-sync, Pass-the-Hash — correlated via Sysmon + Wazuh
 
 > **🪲 Malware Analysis Sandbox**
-> Automated RE + behavioural analysis — YARA rules, API hooking, Cuckoo-style dynamic execution
+> Automated RE + behavioural analysis — YARA, API hooking, Cuckoo-style dynamic execution
 
 > **🛰 LEO Satellite Cyber Lab**
 > Uplink jamming, command spoofing, ground-station intrusion + defence telemetry pipelines
@@ -208,6 +233,11 @@
 
 <br/>
 
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+
+<br/>
+
 <!-- ══════════════════════════════ CONNECT ══════════════════════════════ -->
 <div align="center">
 
@@ -221,12 +251,12 @@
 > Status     : [●] ONLINE — ready to collaborate
 ```
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-00FF41?style=for-the-badge&logo=googlechrome&logoColor=black&labelColor=0d1117)](https://raoof128.github.io/Portfolio/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:raoof.r12@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-06b6d4?style=for-the-badge&logo=linkedin&logoColor=09090b&labelColor=0f1115)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=0f1115)](https://raoof128.github.io/Portfolio/)
+[![Email](https://img.shields.io/badge/Email-Contact-f59e0b?style=for-the-badge&logo=gmail&logoColor=09090b&labelColor=0f1115)](mailto:raoof.r12@gmail.com)
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,60:003300,100:0d1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,40:06b6d4,70:8b5cf6,100:09090b&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
