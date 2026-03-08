@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1200 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divider" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#09090b"/>
+      <stop offset="15%"  stop-color="#06b6d4" stop-opacity="0.9"/>
+      <stop offset="50%"  stop-color="#8b5cf6" stop-opacity="0.7"/>
+      <stop offset="85%"  stop-color="#f59e0b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#09090b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.4" stroke-opacity="0.03"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .txt { font: 400 12px 'Courier New', Courier, monospace; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="100" fill="#09090b"/>
+  <rect width="1200" height="100" fill="url(#grid)"/>
+
+  <!-- Decorative bottom corners -->
+  <polyline points="0,40 0,100 60,100"   stroke="#06b6d4" stroke-width="1.5" stroke-opacity="0.5" fill="none"/>
+  <polyline points="1140,100 1200,100 1200,40" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.5" fill="none"/>
+  <polyline points="8,100 8,92 0,92"     stroke="#06b6d4" stroke-width="1" stroke-opacity="0.3" fill="none"/>
+  <polyline points="1200,92 1192,92 1192,100" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.3" fill="none"/>
+
+  <!-- Footer text -->
+  <text x="600" y="56" text-anchor="middle" class="txt" fill="#27272a">
+    raoufabedini.dev  ·  Breaking Systems. Building Defences.
+  </text>
+  <text x="600" y="76" text-anchor="middle" class="txt" fill="#0f1115" filter="url(#glow)" style="fill:#8b5cf6;fill-opacity:0.5;">
+    © 2026 Mohammad Raouf Abedini
+  </text>
+
+  <!-- Top divider -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#divider)"/>
+</svg>

@@ -1,0 +1,114 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Portfolio section-divider: cyan → purple → amber -->
+    <linearGradient id="divider" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#09090b"/>
+      <stop offset="15%"  stop-color="#06b6d4" stop-opacity="0.9"/>
+      <stop offset="50%"  stop-color="#8b5cf6" stop-opacity="0.7"/>
+      <stop offset="85%"  stop-color="#f59e0b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <!-- Name glow -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="45%"  stop-color="#e4e4e7"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <!-- Radial vignette -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%"   stop-color="#0f1115" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#09090b" stop-opacity="0.7"/>
+    </radialGradient>
+    <!-- Cyan glow filter -->
+    <filter id="glow-cyan" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Scanline pattern -->
+    <pattern id="scanlines" x="0" y="0" width="1200" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1200" height="1" y="3" fill="#ffffff" fill-opacity="0.015"/>
+    </pattern>
+    <!-- Cyber grid -->
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.4" stroke-opacity="0.04"/>
+    </pattern>
+    <style>
+      .name { font: 900 78px 'Arial Black', 'Arial Bold', Arial, sans-serif; letter-spacing: 6px; }
+      .role { font: 400 20px 'Courier New', Courier, monospace; letter-spacing: 3px; }
+      .tag  { font: 400 13px 'Courier New', Courier, monospace; letter-spacing: 2px; }
+      .dec  { fill: none; }
+      /* Bracket animation */
+      .bl { animation: slide-l 1.2s cubic-bezier(.22,1,.36,1) both; }
+      .br { animation: slide-r 1.2s cubic-bezier(.22,1,.36,1) both; }
+      .nl { animation: fade-in 0.8s ease 0.4s both; opacity:0; }
+      .rl { animation: fade-in 0.8s ease 0.9s both; opacity:0; }
+      .tl { animation: fade-in 0.8s ease 1.3s both; opacity:0; }
+      @keyframes slide-l  { from{opacity:0;transform:translateX(-30px)} to{opacity:1;transform:translateX(0)} }
+      @keyframes slide-r  { from{opacity:0;transform:translateX(30px)}  to{opacity:1;transform:translateX(0)} }
+      @keyframes fade-in  { from{opacity:0} to{opacity:1} }
+    </style>
+  </defs>
+
+  <!-- ── Base ── -->
+  <rect width="1200" height="280" fill="#09090b"/>
+
+  <!-- Cyber grid overlay -->
+  <rect width="1200" height="280" fill="url(#grid)"/>
+
+  <!-- Radial vignette -->
+  <rect width="1200" height="280" fill="url(#vignette)"/>
+
+  <!-- ── Decorative corner lines ── -->
+  <!-- Top-left -->
+  <polyline points="0,0 60,0" stroke="#06b6d4" stroke-width="2" stroke-opacity="0.6"/>
+  <polyline points="0,0 0,60" stroke="#06b6d4" stroke-width="2" stroke-opacity="0.6"/>
+  <polyline points="8,0 8,8 0,8" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Top-right -->
+  <polyline points="1140,0 1200,0" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.6"/>
+  <polyline points="1200,0 1200,60" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.6"/>
+  <polyline points="1192,0 1192,8 1200,8" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Bottom-left -->
+  <polyline points="0,220 0,280" stroke="#8b5cf6" stroke-width="2" stroke-opacity="0.6"/>
+  <polyline points="0,280 60,280" stroke="#8b5cf6" stroke-width="2" stroke-opacity="0.6"/>
+  <polyline points="8,280 8,272 0,272" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Bottom-right -->
+  <polyline points="1200,220 1200,280" stroke="#06b6d4" stroke-width="2" stroke-opacity="0.6"/>
+  <polyline points="1140,280 1200,280" stroke="#06b6d4" stroke-width="2" stroke-opacity="0.6"/>
+  <polyline points="1192,280 1192,272 1200,272" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- ── Decorative brackets ── -->
+  <text x="180" y="168" class="bl" font-size="110" font-family="'Courier New', monospace" fill="#06b6d4" fill-opacity="0.25" filter="url(#glow-soft)">[</text>
+  <text x="1005" y="168" class="br" font-size="110" font-family="'Courier New', monospace" fill="#f59e0b" fill-opacity="0.25" filter="url(#glow-soft)">]</text>
+
+  <!-- ── Name ── -->
+  <!-- Shadow layer -->
+  <text x="601" y="147" text-anchor="middle" class="name nl"
+        fill="#06b6d4" fill-opacity="0.18" filter="url(#glow-cyan)"
+        transform="translate(3,3)">RAOUF ABEDINI</text>
+  <!-- Main layer -->
+  <text x="600" y="144" text-anchor="middle" class="name nl"
+        fill="url(#nameGrad)">RAOUF ABEDINI</text>
+
+  <!-- ── Role line ── -->
+  <text x="600" y="186" text-anchor="middle" class="role rl" fill="#06b6d4" filter="url(#glow-soft)">
+    Cybersecurity &amp; AI Security Engineer
+  </text>
+
+  <!-- ── Tag line ── -->
+  <text x="600" y="218" text-anchor="middle" class="tag tl" fill="#8b5cf6" fill-opacity="0.8">
+    Red Team  ·  Blue Team  ·  Purple Team  ·  Australia 🇦🇺
+  </text>
+
+  <!-- ── Top portfolio divider ── -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#divider)"/>
+
+  <!-- ── Bottom portfolio divider ── -->
+  <rect x="0" y="278" width="1200" height="2" fill="url(#divider)"/>
+
+  <!-- Scanline overlay -->
+  <rect width="1200" height="280" fill="url(#scanlines)"/>
+</svg>

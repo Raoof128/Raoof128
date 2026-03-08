@@ -1,6 +1,6 @@
 <!-- ══════════════════════════════ HEADER ══════════════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,40:06b6d4,70:8b5cf6,100:09090b&height=220&section=header&text=RAOUF%20ABEDINI&fontSize=62&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20%26%20AI%20Security%20Engineer&descAlignY=58&descSize=22&descColor=06b6d4&animation=fadeIn" width="100%"/>
+  <img src="Assests/header.svg" alt="Raouf Abedini — Cybersecurity & AI Security Engineer" width="100%"/>
 </div>
 
 <!-- Typing animation — JetBrains Mono, cyan -->
@@ -14,7 +14,7 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-06b6d4?style=for-the-badge&logo=linkedin&logoColor=09090b)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff)](https://raoof128.github.io/Portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff)](https://raoufabedini.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-0f1115?style=for-the-badge&logo=github&logoColor=06b6d4)](https://github.com/Raoof128)
 [![Email](https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=09090b)](mailto:raoof.r12@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=Raoof128&color=06b6d4&style=for-the-badge&label=VISITORS)](https://github.com/Raoof128)
@@ -254,11 +254,11 @@
 ```
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-06b6d4?style=for-the-badge&logo=linkedin&logoColor=09090b&labelColor=0f1115)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=0f1115)](https://raoof128.github.io/Portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=0f1115)](https://raoufabedini.dev)
 [![Email](https://img.shields.io/badge/Email-Contact-f59e0b?style=for-the-badge&logo=gmail&logoColor=09090b&labelColor=0f1115)](mailto:raoof.r12@gmail.com)
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,40:06b6d4,70:8b5cf6,100:09090b&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="Assests/footer.svg" width="100%" alt="Footer"/>
 
 </div>
