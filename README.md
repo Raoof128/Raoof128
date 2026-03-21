@@ -70,22 +70,41 @@
 
 **[ LANGUAGES ]**
 
-[![Languages](https://skillicons.dev/icons?i=python,js,ts,bash,powershell,cpp,cs,go,solidity&theme=dark)](https://skillicons.dev)
+[![Python](https://skillicons.dev/icons?i=python&theme=dark)](https://www.python.org)
+[![JavaScript](https://skillicons.dev/icons?i=js&theme=dark)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://skillicons.dev/icons?i=ts&theme=dark)](https://www.typescriptlang.org)
+[![Bash](https://skillicons.dev/icons?i=bash&theme=dark)](https://www.gnu.org/software/bash/)
+[![PowerShell](https://skillicons.dev/icons?i=powershell&theme=dark)](https://learn.microsoft.com/en-us/powershell/)
+[![C++](https://skillicons.dev/icons?i=cpp&theme=dark)](https://isocpp.org)
+[![C#](https://skillicons.dev/icons?i=cs&theme=dark)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![Go](https://skillicons.dev/icons?i=go&theme=dark)](https://go.dev)
+[![Solidity](https://skillicons.dev/icons?i=solidity&theme=dark)](https://soliditylang.org)
 
 **[ AI / ML ]**
 
-[![AI/ML](https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&theme=dark)](https://skillicons.dev)
+[![PyTorch](https://skillicons.dev/icons?i=pytorch&theme=dark)](https://pytorch.org)
+[![TensorFlow](https://skillicons.dev/icons?i=tensorflow&theme=dark)](https://www.tensorflow.org)
+[![OpenCV](https://skillicons.dev/icons?i=opencv&theme=dark)](https://opencv.org)
+[![scikit-learn](https://skillicons.dev/icons?i=sklearn&theme=dark)](https://scikit-learn.org)
 &nbsp;
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-8b5cf6?style=flat-square&logo=huggingface&logoColor=ffffff)](https://huggingface.co)
 [![LangChain](https://img.shields.io/badge/LangChain-06b6d4?style=flat-square&logo=langchain&logoColor=09090b)](https://www.langchain.com)
 
 **[ CLOUD & DEVOPS ]**
 
-[![Cloud](https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,docker,kubernetes,nginx,githubactions&theme=dark)](https://skillicons.dev)
+[![AWS](https://skillicons.dev/icons?i=aws&theme=dark)](https://aws.amazon.com)
+[![Azure](https://skillicons.dev/icons?i=azure&theme=dark)](https://azure.microsoft.com)
+[![GCP](https://skillicons.dev/icons?i=gcp&theme=dark)](https://cloud.google.com)
+[![Cloudflare](https://skillicons.dev/icons?i=cloudflare&theme=dark)](https://www.cloudflare.com)
+[![Docker](https://skillicons.dev/icons?i=docker&theme=dark)](https://www.docker.com)
+[![Kubernetes](https://skillicons.dev/icons?i=kubernetes&theme=dark)](https://kubernetes.io)
+[![Nginx](https://skillicons.dev/icons?i=nginx&theme=dark)](https://nginx.org)
+[![GitHub Actions](https://skillicons.dev/icons?i=githubactions&theme=dark)](https://github.com/features/actions)
 
 **[ SECURITY TOOLING ]**
 
-[![Security](https://skillicons.dev/icons?i=kali,elasticsearch&theme=dark)](https://skillicons.dev)
+[![Kali Linux](https://skillicons.dev/icons?i=kali&theme=dark)](https://www.kali.org)
+[![Elastic](https://skillicons.dev/icons?i=elasticsearch&theme=dark)](https://www.elastic.co)
 &nbsp;
 [![Metasploit](https://img.shields.io/badge/Metasploit-f59e0b?style=for-the-badge&logoColor=09090b)](https://www.metasploit.com)
 [![Burp Suite](https://img.shields.io/badge/Burp_Suite-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://portswigger.net/burp)
