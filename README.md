@@ -74,11 +74,10 @@
 
 **[ AI / ML ]**
 
-[![AI/ML](https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark)](https://skillicons.dev)
+[![AI/ML](https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&theme=dark)](https://skillicons.dev)
 &nbsp;
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-f59e0b?style=flat-square&logo=scikitlearn&logoColor=09090b)](#)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-8b5cf6?style=flat-square&logo=huggingface&logoColor=ffffff)](#)
-[![LangChain](https://img.shields.io/badge/LangChain-06b6d4?style=flat-square&logo=langchain&logoColor=09090b)](#)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-8b5cf6?style=flat-square&logo=huggingface&logoColor=ffffff)](https://huggingface.co)
+[![LangChain](https://img.shields.io/badge/LangChain-06b6d4?style=flat-square&logo=langchain&logoColor=09090b)](https://www.langchain.com)
 
 **[ CLOUD & DEVOPS ]**
 
@@ -86,18 +85,18 @@
 
 **[ SECURITY TOOLING ]**
 
-[![Kali Linux](https://img.shields.io/badge/Kali_Linux-06b6d4?style=for-the-badge&logo=kalilinux&logoColor=09090b)](#)
-[![Metasploit](https://img.shields.io/badge/Metasploit-f59e0b?style=for-the-badge&logoColor=09090b)](#)
-[![Burp Suite](https://img.shields.io/badge/Burp_Suite-8b5cf6?style=for-the-badge&logoColor=ffffff)](#)
-[![Wazuh](https://img.shields.io/badge/Wazuh-06b6d4?style=for-the-badge&logoColor=09090b)](#)
-[![Splunk](https://img.shields.io/badge/Splunk-f59e0b?style=for-the-badge&logo=splunk&logoColor=09090b)](#)
-[![Elastic](https://img.shields.io/badge/Elastic-8b5cf6?style=for-the-badge&logo=elastic&logoColor=ffffff)](#)
+[![Security](https://skillicons.dev/icons?i=kali,elasticsearch&theme=dark)](https://skillicons.dev)
+&nbsp;
+[![Metasploit](https://img.shields.io/badge/Metasploit-f59e0b?style=for-the-badge&logoColor=09090b)](https://www.metasploit.com)
+[![Burp Suite](https://img.shields.io/badge/Burp_Suite-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://portswigger.net/burp)
+[![Wazuh](https://img.shields.io/badge/Wazuh-06b6d4?style=for-the-badge&logoColor=09090b)](https://wazuh.com)
+[![Splunk](https://img.shields.io/badge/Splunk-f59e0b?style=for-the-badge&logo=splunk&logoColor=09090b)](https://www.splunk.com)
 
-[![Zeek](https://img.shields.io/badge/Zeek-06b6d4?style=for-the-badge&logoColor=09090b)](#)
-[![Suricata](https://img.shields.io/badge/Suricata-f59e0b?style=for-the-badge&logoColor=09090b)](#)
-[![YARA](https://img.shields.io/badge/YARA-8b5cf6?style=for-the-badge&logoColor=ffffff)](#)
-[![Wireshark](https://img.shields.io/badge/Wireshark-06b6d4?style=for-the-badge&logo=wireshark&logoColor=09090b)](#)
-[![Nmap](https://img.shields.io/badge/Nmap-f59e0b?style=for-the-badge&logoColor=09090b)](#)
+[![Zeek](https://img.shields.io/badge/Zeek-06b6d4?style=for-the-badge&logoColor=09090b)](https://zeek.org)
+[![Suricata](https://img.shields.io/badge/Suricata-f59e0b?style=for-the-badge&logoColor=09090b)](https://suricata.io)
+[![YARA](https://img.shields.io/badge/YARA-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://virustotal.github.io/yara/)
+[![Wireshark](https://img.shields.io/badge/Wireshark-06b6d4?style=for-the-badge&logo=wireshark&logoColor=09090b)](https://www.wireshark.org)
+[![Nmap](https://img.shields.io/badge/Nmap-f59e0b?style=for-the-badge&logoColor=09090b)](https://nmap.org)
 
 </div>
 
