@@ -134,9 +134,9 @@
 
   <!-- Output 1 -->
   <g class="line-3"><text x="56" y="114" class="out-key">NAME   </text><text x="158" y="114" class="out-val">Mohammad Raouf Abedini</text></g>
-  <g class="line-4"><text x="56" y="130" class="out-key">ROLE   </text><text x="158" y="130" class="out-val">Cybersecurity &amp; AI Security Engineer</text></g>
+  <g class="line-4"><text x="56" y="130" class="out-key">ROLE   </text><text x="158" y="130" class="out-val">AI Security Researcher</text></g>
   <g class="line-5"><text x="56" y="146" class="out-key">BASE   </text><text x="158" y="146" class="out-val">Australia  🇦🇺</text></g>
-  <g class="line-6"><text x="56" y="162" class="out-key">FOCUS  </text><text x="158" y="162" class="out-val">Red Team · Blue Team · AI Security · Cloud</text></g>
+  <g class="line-6"><text x="56" y="162" class="out-key">FOCUS  </text><text x="158" y="162" class="out-val">Vulnerability Research · AI Safety · Systems Programming</text></g>
 
   <!-- Prompt 2 -->
   <g class="line-7">
@@ -154,8 +154,8 @@
   </g>
 
   <!-- Output 2 -->
-  <g class="line-9"> <text x="56" y="230" class="out-key">»</text><text x="72" y="230" class="out-val"> Breaking Systems. Building Defences. Automating Everything.</text></g>
-  <g class="line-10"><text x="56" y="246" class="out-key">»</text><text x="72" y="246" class="out-val"> Pushing AI + Security to the absolute limit.</text></g>
+  <g class="line-9"> <text x="56" y="230" class="out-key">»</text><text x="72" y="230" class="out-val"> Discovering vulnerabilities. Measuring AI capability uplift.</text></g>
+  <g class="line-10"><text x="56" y="246" class="out-key">»</text><text x="72" y="246" class="out-val"> Building safer systems — from OS exploits to LLM safety.</text></g>
 
   <!-- Final prompt + cursor -->
   <g class="line-11">

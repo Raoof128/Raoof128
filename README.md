@@ -1,12 +1,12 @@
 <!-- ══════════════════════════════ HEADER ══════════════════════════════ -->
 <div align="center">
-  <img src="Assests/header.svg" alt="Raouf Abedini — Cybersecurity & AI Security Engineer" width="100%"/>
+  <img src="Assets/header.svg" alt="Raouf Abedini — AI Security Researcher" width="100%"/>
 </div>
 
 <!-- Typing animation — JetBrains Mono, cyan -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=700&color=06B6D4&center=true&vCenter=true&width=860&lines=Red+Team+%7C+Blue+Team+%7C+Purple+Team;Breaking+Systems.+Building+Defences.;Automating+Everything.+Shipping+the+Future.;SOC+%7C+Detection+Engineering+%7C+Threat+Intel;LLM+Security+%7C+Adversarial+AI+%7C+Cloud+Red+Team)](https://readme-typing-svg.demolab.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=700&color=06B6D4&center=true&vCenter=true&width=860&lines=AI+Security+Researcher+%7C+Vulnerability+Research+%7C+Systems+Programming;Authored+%22The+Invisible+Window%22+%E2%80%94+Cross-Platform+Evasion+Research;Python+%7C+C%2FC%2B%2B+%7C+Swift+%7C+TypeScript+%7C+Bash;LLM+Evaluation+%7C+AI+Safety+%7C+Responsible+Disclosure;Macquarie+University+%E2%80%94+B.Cyber+Security+%2726)](https://readme-typing-svg.demolab.com)
 
 </div>
 
@@ -15,7 +15,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-06b6d4?style=for-the-badge&logo=linkedin&logoColor=09090b)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff)](https://raoufabedini.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-0f1115?style=for-the-badge&logo=github&logoColor=06b6d4)](https://github.com/Raoof128)
+[![ORCID](https://img.shields.io/badge/ORCID-0f1115?style=for-the-badge&logo=orcid&logoColor=a6ce39)](https://orcid.org/0009-0000-6214-258X)
 [![Email](https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=09090b)](mailto:raoof.r12@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=Raoof128&color=06b6d4&style=for-the-badge&label=VISITORS)](https://github.com/Raoof128)
 
@@ -25,7 +25,7 @@
 
 <!-- ══════════════════════════════ TERMINAL SVG ══════════════════════════════ -->
 <div align="center">
-  <img src="Assests/terminal.svg" width="98%" alt="Terminal Animation"/>
+  <img src="Assets/terminal.svg" width="98%" alt="Terminal Animation"/>
 </div>
 
 <br/>
@@ -43,16 +43,54 @@
 </div>
 
 ```
-╔══════════════════════════════════════════════════════════════════════╗
-║  🔐  Building SOC Pipelines, Detection Engines & AI Threat Tools     ║
-║  🎯  Full Attack–Defence Simulations — Cloud · AD · Hybrid           ║
-║  🤖  Pushing AI + Cybersecurity Convergence to the Absolute Limit    ║
-║  🛰  Researching LEO Satellite Security & Space-Domain Attacks        ║
-║  🧬  LLM Red Teaming · Adversarial ML · AI Alignment Risk            ║
-║  🏛  AU Compliance Specialist: SOCI · Essential Eight · CDR · Privacy ║
-║  🚀  Making Security Tools Look Futuristic — Because Aesthetics Matter║
-╚══════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════╗
+║  🔬  AI Security Researcher — Vulnerability Discovery & Disclosure      ║
+║  📄  Authored "The Invisible Window" — 100% Screen Capture Evasion      ║
+║  🤖  AI Model Evaluation for Anthropic (Claude Code Human Preference)   ║
+║  🧬  LLM Safety · Capability Uplift Measurement · Dual-Use Risk        ║
+║  💻  Systems Programming — C/C++ Engines · Python Tooling · Swift       ║
+║  🎓  B.Cyber Security — Macquarie University (Graduating Nov 2026)      ║
+╚══════════════════════════════════════════════════════════════════════════╝
 ```
+
+<br/>
+
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+
+<br/>
+
+<!-- ══════════════════════════════ RESEARCH ══════════════════════════════ -->
+<div align="center">
+
+### `> cat /research/the-invisible-window.md`
+
+</div>
+
+<table>
+<tr>
+<td>
+
+**📄 The Invisible Window** `2026`
+
+*Exploiting OS-Level Display Affinity to Bypass WebRTC Proctoring Systems*
+
+`C` · `Swift` · `Python` · `Win32 API` · `ScreenCaptureKit` · `WebRTC`
+
+- **100% screen capture evasion** across Windows 10/11 and macOS 14–26 via W3C Screen Capture / OS compositing trust boundary violation — zero artefacts over 10,000+ frames
+- **Novel finding:** Apple's macOS 15 ScreenCaptureKit mitigation remains ineffective on macOS 26 — contradicting vendor assumptions through pixel-level forensic verification
+- **Coordinated disclosure** to 3 proctoring vendors (ProctorU, Proctorio, Respondus) + 2 OS vendors (Microsoft, Apple) following OWASP/FIRST/CISA frameworks
+- Documented measurable **AI capability uplift** and characterised **intent-vs-artefact safety boundaries** — directly relevant to ASL threshold calibration
+
+<div align="center">
+
+[![Read Paper](https://img.shields.io/badge/Read_Paper-8b5cf6?style=for-the-badge&logo=readthedocs&logoColor=ffffff)](https://raoufabedini.dev/projects/invisible-window-research)
+
+</div>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -71,53 +109,140 @@
 **[ LANGUAGES ]**
 
 [![Python](https://skillicons.dev/icons?i=python&theme=dark)](https://www.python.org)
-[![JavaScript](https://skillicons.dev/icons?i=js&theme=dark)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![TypeScript](https://skillicons.dev/icons?i=ts&theme=dark)](https://www.typescriptlang.org)
-[![Bash](https://skillicons.dev/icons?i=bash&theme=dark)](https://www.gnu.org/software/bash/)
-[![PowerShell](https://skillicons.dev/icons?i=powershell&theme=dark)](https://learn.microsoft.com/en-us/powershell/)
+[![C](https://skillicons.dev/icons?i=c&theme=dark)](https://en.cppreference.com/w/c)
 [![C++](https://skillicons.dev/icons?i=cpp&theme=dark)](https://isocpp.org)
-[![C#](https://skillicons.dev/icons?i=cs&theme=dark)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![TypeScript](https://skillicons.dev/icons?i=ts&theme=dark)](https://www.typescriptlang.org)
+[![JavaScript](https://skillicons.dev/icons?i=js&theme=dark)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Swift](https://skillicons.dev/icons?i=swift&theme=dark)](https://swift.org)
+[![Kotlin](https://skillicons.dev/icons?i=kotlin&theme=dark)](https://kotlinlang.org)
+[![Bash](https://skillicons.dev/icons?i=bash&theme=dark)](https://www.gnu.org/software/bash/)
 [![Go](https://skillicons.dev/icons?i=go&theme=dark)](https://go.dev)
-[![Solidity](https://skillicons.dev/icons?i=solidity&theme=dark)](https://soliditylang.org)
+&nbsp;
+[![SQL](https://img.shields.io/badge/SQL-06b6d4?style=flat-square&logo=postgresql&logoColor=ffffff)](https://www.postgresql.org)
 
 **[ AI / ML ]**
 
-[![PyTorch](https://skillicons.dev/icons?i=pytorch&theme=dark)](https://pytorch.org)
-[![TensorFlow](https://skillicons.dev/icons?i=tensorflow&theme=dark)](https://www.tensorflow.org)
-[![OpenCV](https://skillicons.dev/icons?i=opencv&theme=dark)](https://opencv.org)
-[![scikit-learn](https://skillicons.dev/icons?i=sklearn&theme=dark)](https://scikit-learn.org)
-&nbsp;
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-8b5cf6?style=flat-square&logo=huggingface&logoColor=ffffff)](https://huggingface.co)
-[![LangChain](https://img.shields.io/badge/LangChain-06b6d4?style=flat-square&logo=langchain&logoColor=09090b)](https://www.langchain.com)
+[![LLM Evaluation](https://img.shields.io/badge/LLM_Evaluation-06b6d4?style=for-the-badge&logoColor=09090b)](https://www.anthropic.com)
+[![NLP](https://img.shields.io/badge/NLP-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://en.wikipedia.org/wiki/Natural_language_processing)
+[![AI Safety](https://img.shields.io/badge/AI_Safety-f59e0b?style=for-the-badge&logoColor=09090b)](https://www.anthropic.com/research)
+[![Generative AI](https://img.shields.io/badge/Generative_AI-06b6d4?style=for-the-badge&logoColor=09090b)](https://docs.anthropic.com)
 
-**[ CLOUD & DEVOPS ]**
+**[ SYSTEMS & TOOLS ]**
 
-[![AWS](https://skillicons.dev/icons?i=aws&theme=dark)](https://aws.amazon.com)
-[![Azure](https://skillicons.dev/icons?i=azure&theme=dark)](https://azure.microsoft.com)
-[![GCP](https://skillicons.dev/icons?i=gcp&theme=dark)](https://cloud.google.com)
-[![Cloudflare](https://skillicons.dev/icons?i=cloudflare&theme=dark)](https://www.cloudflare.com)
+[![Linux](https://skillicons.dev/icons?i=linux&theme=dark)](https://www.linux.org)
 [![Docker](https://skillicons.dev/icons?i=docker&theme=dark)](https://www.docker.com)
-[![Kubernetes](https://skillicons.dev/icons?i=kubernetes&theme=dark)](https://kubernetes.io)
-[![Nginx](https://skillicons.dev/icons?i=nginx&theme=dark)](https://nginx.org)
+[![CMake](https://skillicons.dev/icons?i=cmake&theme=dark)](https://cmake.org)
 [![GitHub Actions](https://skillicons.dev/icons?i=githubactions&theme=dark)](https://github.com/features/actions)
+[![Cloudflare](https://skillicons.dev/icons?i=cloudflare&theme=dark)](https://www.cloudflare.com)
+[![FastAPI](https://skillicons.dev/icons?i=fastapi&theme=dark)](https://fastapi.tiangolo.com)
+&nbsp;
+[![Google Test](https://img.shields.io/badge/Google_Test-06b6d4?style=flat-square&logo=google&logoColor=ffffff)](https://google.github.io/googletest/)
+[![libpcap](https://img.shields.io/badge/libpcap-f59e0b?style=flat-square&logoColor=09090b)](https://www.tcpdump.org)
 
 **[ SECURITY TOOLING ]**
 
 [![Kali Linux](https://skillicons.dev/icons?i=kali&theme=dark)](https://www.kali.org)
-[![Elastic](https://skillicons.dev/icons?i=elasticsearch&theme=dark)](https://www.elastic.co)
 &nbsp;
-[![Metasploit](https://img.shields.io/badge/Metasploit-f59e0b?style=for-the-badge&logoColor=09090b)](https://www.metasploit.com)
 [![Burp Suite](https://img.shields.io/badge/Burp_Suite-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://portswigger.net/burp)
-[![Wazuh](https://img.shields.io/badge/Wazuh-06b6d4?style=for-the-badge&logoColor=09090b)](https://wazuh.com)
-[![Splunk](https://img.shields.io/badge/Splunk-f59e0b?style=for-the-badge&logo=splunk&logoColor=09090b)](https://www.splunk.com)
-
-[![Zeek](https://img.shields.io/badge/Zeek-06b6d4?style=for-the-badge&logoColor=09090b)](https://zeek.org)
-[![Suricata](https://img.shields.io/badge/Suricata-f59e0b?style=for-the-badge&logoColor=09090b)](https://suricata.io)
-[![YARA](https://img.shields.io/badge/YARA-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://virustotal.github.io/yara/)
 [![Wireshark](https://img.shields.io/badge/Wireshark-06b6d4?style=for-the-badge&logo=wireshark&logoColor=09090b)](https://www.wireshark.org)
 [![Nmap](https://img.shields.io/badge/Nmap-f59e0b?style=for-the-badge&logoColor=09090b)](https://nmap.org)
 
+**[ FRAMEWORKS ]**
+
+[![OWASP](https://img.shields.io/badge/OWASP-06b6d4?style=for-the-badge&logoColor=09090b)](https://owasp.org)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://attack.mitre.org)
+[![NIST](https://img.shields.io/badge/NIST-f59e0b?style=for-the-badge&logoColor=09090b)](https://www.nist.gov/cyberframework)
+[![W3C Screen Capture](https://img.shields.io/badge/W3C_Screen_Capture-06b6d4?style=for-the-badge&logoColor=09090b)](https://www.w3.org/TR/screen-capture/)
+
 </div>
+
+<br/>
+
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+
+<br/>
+
+<!-- ══════════════════════════════ PROJECTS ══════════════════════════════ -->
+<div align="center">
+
+### `> ls -la /projects/`
+
+</div>
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+#### ⚙️ Systems & Security
+
+> **NanoMatch** — `C++20` · `CMake` · `Google Test` `2026`
+> High-performance matching engine processing **1M+ orders/sec** with sub-microsecond latency — red-black tree price levels, custom memory pool allocator, p50/p99 benchmarks
+
+> **SentinelFlow** — `C++17` · `libpcap` · `CMake` · `Google Test` · `Linux` `2026`
+> Real-time packet processing engine parsing **500K+ packets/sec** — protocol dissection (Ethernet/IPv4/TCP/UDP/ICMP/DNS), signature-based detection, stateful analysis
+
+</td>
+<td valign="top" width="50%">
+
+#### 🤖 Full-Stack & AI
+
+> **[Nexus Archive](https://github.com/Raoof128/Nexus_Archive)** — `Python/Litestar` · `React` · `PostgreSQL` · `Docker` · `Terraform` `2025`
+> Full-stack data platform with AI recommendation engine, event-driven API, rate limiting, and automated security scanning — end-to-end ownership from schema to deployment
+
+> **Mehr Guard** — `Kotlin Multiplatform` · `Local ML` · `Android & iOS` `2024`
+> Cross-platform offline threat detection with local ML classification — submitted to KotlinConf global developer conference
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+*70+ additional public projects covering vulnerability research, systems programming, AI/ML tooling, and cloud infrastructure*
+
+</div>
+
+<br/>
+
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+
+<br/>
+
+<!-- ══════════════════════════════ EDUCATION ══════════════════════════════ -->
+<div align="center">
+
+### `> cat /etc/education`
+
+| 🎓 Degree | 🏛 Institution | 📅 Period |
+|:---|:---|:---|
+| **Bachelor of Cyber Security** | Macquarie University | May 2024 – Nov 2026 |
+| **Diploma of Information Technology** | Macquarie University | Jul 2023 – May 2024 |
+
+*Coursework: Digital Forensics · Network Security · Systems Security · Cloud Computing · NLP & Machine Learning · Privacy-Preserving Data Analysis*
+
+</div>
+
+<br/>
+
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+
+<br/>
+
+<!-- ══════════════════════════════ AI SAFETY & COMMUNITY ══════════════════════════════ -->
+<div align="center">
+
+### `> cat /community/ai-safety.md`
+
+</div>
+
+> 🤖 **Anthropic** — Completed AI model evaluation (Claude Code Human Preference) — benchmarked LLM code outputs for quality, security, correctness, and reliability
+
+> 🔬 **Research Directions** — Proposed systematic uplift measurement across vulnerability classes, intent-vs-artefact safety boundary generalisation, and defensive application development to Anthropic's Fellows team
+
+> 🎓 **Mentoring** — Mentored peers in cybersecurity, C/C++ programming, and systems-level problem-solving at Macquarie University
 
 <br/>
 
@@ -161,7 +286,7 @@
 
 ### `> ./entity --walk`
 
-<img src="Assests/alien.svg" width="100%" alt="Alien mascot"/>
+<img src="Assets/alien.svg" width="100%" alt="Alien mascot"/>
 
 </div>
 
@@ -173,75 +298,6 @@
 ### `> htop --graph`
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Raoof128&bg_color=09090b&color=06b6d4&line=8b5cf6&point=f59e0b&area=true&area_color=06b6d4&border_color=06b6d4&custom_title=Commit%20Activity%20%7C%20Raoof128&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
-<br/>
-
-<!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
-
-<br/>
-
-<!-- ══════════════════════════════ PROJECTS ══════════════════════════════ -->
-<div align="center">
-
-### `> ls -la /projects/`
-
-</div>
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-#### 🔐 Core Security Labs
-
-> **🧩 Active Directory Attack & Defence Lab**
-> Purple-team: AS-REP roasting, kerberoasting, DC-sync, Pass-the-Hash — correlated via Sysmon + Wazuh
-
-> **🪲 Malware Analysis Sandbox**
-> Automated RE + behavioural analysis — YARA, API hooking, Cuckoo-style dynamic execution
-
-> **🛰 LEO Satellite Cyber Lab**
-> Uplink jamming, command spoofing, ground-station intrusion + defence telemetry pipelines
-
-> **🕸 T-Pot Honeypot + Threat Intel**
-> Cluster honeypot with ML classification of live attacker TTPs and attribution scoring
-
-> **🛡 SOC Automation Engine**
-> Python SOAR playbooks, auto-correlation, KQL/SPL detectors, E8 maturity dashboard
-
-</td>
-<td valign="top" width="50%">
-
-#### 🤖 AI Security & Detection
-
-> **🧬 AI Red Team / LLM Security Framework**
-> Injection testing, jailbreak detection, hallucination scoring, adversarial prompt generation
-
-> **👁 AI-Powered Scam Detection Platform**
-> Transformer-based fraud engine + reporting dashboard for AU authorities
-
-> **🔍 ML Network Anomaly Detection**
-> Zeek/Suricata → Isolation Forest, Autoencoders, LSTM anomaly models
-
-> **🔐 Real-Time Phishing Browser Extension**
-> URL scoring, DOM fingerprinting, live content ML classification
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ══════════════════════════════ COMPLIANCE ══════════════════════════════ -->
-<div align="center">
-
-#### 🇦🇺 Australian Compliance Suite
-
-| 🏛 SOCI Act | 🧱 Essential Eight | 🔑 CDR Validator | 🧪 PQC Auditor |
-|:---:|:---:|:---:|:---:|
-| Asset classification + rule mapping → continuous compliance engine | MITRE ATT&CK detections, maturity scoring, GPO drift tracking | AU open banking (FAPI 2.0), TLS, OAuth 2.0 testing suite | Quantum-risk scanner for AU org crypto inventories |
 
 </div>
 
@@ -268,9 +324,10 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-06b6d4?style=for-the-badge&logo=linkedin&logoColor=09090b&labelColor=0f1115)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=0f1115)](https://raoufabedini.dev)
 [![Email](https://img.shields.io/badge/Email-Contact-f59e0b?style=for-the-badge&logo=gmail&logoColor=09090b&labelColor=0f1115)](mailto:raoof.r12@gmail.com)
+[![ORCID](https://img.shields.io/badge/ORCID-Research-a6ce39?style=for-the-badge&logo=orcid&logoColor=09090b&labelColor=0f1115)](https://orcid.org/0009-0000-6214-258X)
 
 <br/>
 
-<img src="Assests/footer.svg" width="100%" alt="Footer"/>
+<img src="Assets/footer.svg" width="100%" alt="Footer"/>
 
 </div>

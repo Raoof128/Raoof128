@@ -294,8 +294,8 @@
   <text x="600" y="148" text-anchor="middle" class="name-main" fill="url(#nameGrad)" filter="url(#glow-cyan)">RAOUF ABEDINI</text>
 
   <!-- ─── Subtitle ─── -->
-  <text x="600" y="190" text-anchor="middle" class="role" fill="#06b6d4" filter="url(#glow-sm)">Cybersecurity &amp; AI Security Engineer</text>
-  <text x="600" y="220" text-anchor="middle" class="tag" fill="#8b5cf6" fill-opacity="0.85">Red Team  ·  Blue Team  ·  Purple Team  ·  Australia</text>
+  <text x="600" y="190" text-anchor="middle" class="role" fill="#06b6d4" filter="url(#glow-sm)">AI Security Researcher</text>
+  <text x="600" y="220" text-anchor="middle" class="tag" fill="#8b5cf6" fill-opacity="0.85">Vulnerability Research  ·  AI Safety  ·  Systems Programming  ·  Australia</text>
 
   <!-- ─── Portfolio divider borders ─── -->
   <rect x="0" y="0"   width="1200" height="2" fill="url(#divider)"/>

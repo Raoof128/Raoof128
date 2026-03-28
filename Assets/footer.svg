@@ -80,7 +80,7 @@
   <text x="600" y="50" text-anchor="middle" class="site fadein" fill="#06b6d4" filter="url(#glow-sm)">raoufabedini.dev</text>
 
   <!-- ─── Tagline ─── -->
-  <text x="600" y="76" text-anchor="middle" class="txt fadein" fill="#27272a">Breaking Systems. Building Defences. Automating Everything.</text>
+  <text x="600" y="76" text-anchor="middle" class="txt fadein" fill="#27272a">Discovering Vulnerabilities. Measuring AI Safety. Building Safer Systems.</text>
 
   <!-- ─── Bottom line ─── -->
   <rect x="0" y="108" width="1200" height="2" fill="url(#divider)"/>
