@@ -116,6 +116,27 @@
 
 </td>
 </tr>
+<tr>
+<td>
+
+**🛠 [SimurghForge](https://github.com/Raoof128/SimurghForge)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
+
+*Universal File Converter — Local-First, Privacy-Preserving Document Processing*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+- Batch conversion pipeline supporting multiple document and media formats — no files leave the local machine
+- Companion tool to Project Simurgh: designed to operate within privacy-preserving session environments where data must not be transmitted to remote infrastructure
+- Local-first architecture with zero external dependencies at runtime — aligns with the zero-PII-exposure model validated in the Simurgh integrity proof system
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-SimurghForge-7c3aed?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Raoof128/SimurghForge)
+
+</div>
+
+</td>
+</tr>
 </table>
 
 <br/>
