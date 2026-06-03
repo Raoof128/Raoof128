@@ -23,6 +23,9 @@
 
 <br/>
 
+<!-- ══════════════════════════════ COSMIC STARFIELD ══════════════════════════════ -->
+<img src="Assets/cosmic.svg" width="100%" alt="Cosmic Starfield"/>
+
 <!-- ══════════════════════════════ TERMINAL SVG ══════════════════════════════ -->
 <div align="center">
   <img src="Assets/terminal.svg" width="98%" alt="Terminal Animation"/>
@@ -31,7 +34,7 @@
 <br/>
 
 <!-- Portfolio section divider: cyan → purple → amber -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -57,7 +60,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -118,7 +121,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -182,7 +185,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -253,7 +256,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -273,7 +276,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -294,7 +297,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -314,7 +317,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -343,12 +346,16 @@
 
 <img src="https://github-profile-trophy.vercel.app/?username=Raoof128&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%" alt="GitHub Trophies"/>
 
+<br/>
+
+<img src="https://raw.githubusercontent.com/Raoof128/Raoof128/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+
 </div>
 
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
@@ -375,7 +382,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
 
 <br/>
 
