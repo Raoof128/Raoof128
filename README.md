@@ -63,7 +63,7 @@
 <!-- ══════════════════════════════ RESEARCH ══════════════════════════════ -->
 <div align="center">
 
-### `> cat /research/the-invisible-window.md`
+### `> cat /research/*.md`
 
 </div>
 
@@ -85,6 +85,28 @@
 <div align="center">
 
 [![Read Paper](https://img.shields.io/badge/Read_Paper-8b5cf6?style=for-the-badge&logo=readthedocs&logoColor=ffffff)](https://raoufabedini.dev/projects/invisible-window-research)
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td>
+
+**📄 Project Simurgh** `2026`
+
+*Privacy-Preserving Device Integrity Proofs for Capture-Resistant High-Stakes Sessions*
+
+`Ed25519` · `TPM` · `WebExtension` · `Python` · `Cryptography`
+
+- Replaces surveillance-first visual monitoring with **signed, metadata-only integrity proofs** — no screen-capture data collected at any point
+- Combines browser behavioural telemetry, local device integrity daemons, and **Ed25519 cryptographic challenge-response proofs** to verify session authenticity
+- Addresses documented OS display-affinity behaviours on Windows and macOS where visible windows are omitted from capture surfaces, invalidating capture-based trust models
+- Architecture designed for AI-mediated and remote assessment sessions with **zero PII exposure** to proctoring infrastructure
+
+<div align="center">
+
+[![Preprint](https://img.shields.io/badge/Preprint-06b6d4?style=for-the-badge&logo=readthedocs&logoColor=09090b)](https://raoufabedini.dev)
 
 </div>
 
@@ -182,6 +204,9 @@
 > **SentinelFlow** — `C++17` · `libpcap` · `CMake` · `Google Test` · `Linux` `2026`
 > Real-time packet processing engine parsing **500K+ packets/sec** — protocol dissection (Ethernet/IPv4/TCP/UDP/ICMP/DNS), signature-based detection, stateful analysis
 
+> **SimurghForge** — `Python` `2026`
+> Universal file converter — batch conversion pipeline supporting multiple formats, designed for local-first privacy-preserving document processing *(in progress)*
+
 </td>
 <td valign="top" width="50%">
 
@@ -189,6 +214,9 @@
 
 > **[Nexus Archive](https://github.com/Raoof128/Nexus_Archive)** — `Python/Litestar` · `React` · `PostgreSQL` · `Docker` · `Terraform` `2025`
 > Full-stack data platform with AI recommendation engine, event-driven API, rate limiting, and automated security scanning — end-to-end ownership from schema to deployment
+
+> **Aion** — `React Native` · `Expo` · `Supabase` · `pgvector` · `Gemini` `2026`
+> AI-powered Bible companion with **Agentic Hybrid RAG** chat (keyword + semantic search over pgvector), dynamic verse cards, and Perplexity-style interface — grounded responses via `text-embedding-3-small` + Gemini 3 Flash
 
 > **Mehr Guard** — `Kotlin Multiplatform` · `Local ML` · `Android & iOS` `2024`
 > Cross-platform offline threat detection with local ML classification — submitted to KotlinConf global developer conference
