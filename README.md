@@ -75,7 +75,7 @@
 <tr>
 <td>
 
-**📄 The Invisible Window** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
+**📄 The Invisible Window** &nbsp; ![V2.0](https://img.shields.io/badge/V2.0-f59e0b?style=flat-square) ![2026](https://img.shields.io/badge/2026-8b5cf6?style=flat-square)
 
 *Exploiting OS-Level Display Affinity to Bypass WebRTC Proctoring Systems*
 
@@ -88,7 +88,7 @@
 
 <div align="center">
 
-[![Preprint](https://img.shields.io/badge/Preprint-8b5cf6?style=for-the-badge&logo=readthedocs&logoColor=ffffff)](https://raoufabedini.dev/projects/invisible-window-research)
+[![Preprint](https://img.shields.io/badge/Preprint-8b5cf6?style=for-the-badge&logo=readthedocs&logoColor=ffffff)](https://raoufabedini.dev/projects/invisible-window-research) &nbsp; [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20319832-7c3aed?style=for-the-badge&logo=zenodo&logoColor=ffffff)](https://doi.org/10.5281/zenodo.20319832)
 
 </div>
 
@@ -97,16 +97,16 @@
 <tr>
 <td>
 
-**📄 Project Simurgh** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
+**📄 Project Simurgh** &nbsp; ![Stage 2](https://img.shields.io/badge/Stage_2-22c55e?style=flat-square) ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
 
 *Privacy-Preserving Device Integrity Proofs for Capture-Resistant High-Stakes Sessions*
 
-![Ed25519](https://img.shields.io/badge/Ed25519-06b6d4?style=flat-square) ![TPM](https://img.shields.io/badge/TPM-8b5cf6?style=flat-square) ![WebExtension](https://img.shields.io/badge/WebExtension-09090b?style=flat-square&logo=googlechrome&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cryptography](https://img.shields.io/badge/Cryptography-f59e0b?style=flat-square)
+![Ed25519](https://img.shields.io/badge/Ed25519-06b6d4?style=flat-square) ![ECDSA P-256](https://img.shields.io/badge/ECDSA_P--256-8b5cf6?style=flat-square) ![WebExtension](https://img.shields.io/badge/WebExtension-09090b?style=flat-square&logo=googlechrome&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 - Replaces surveillance-first visual monitoring with **signed, metadata-only integrity proofs** — no screen-capture data collected at any point
-- Combines browser behavioural telemetry, local device integrity daemons, and **Ed25519 cryptographic challenge-response proofs** to verify session authenticity
-- Addresses documented OS display-affinity behaviours on Windows and macOS where visible windows are omitted from capture surfaces, invalidating capture-based trust models
-- Architecture designed for AI-mediated and remote assessment sessions with **zero PII exposure** to proctoring infrastructure
+- Combines browser behavioural telemetry, local OS-metadata daemons, and **Ed25519 + ECDSA P-256 cryptographic challenge-response proofs** to verify session authenticity
+- **Stage 2 working prototype on `main`**: instructor risk dashboard, student privacy UI, HMAC-SHA256 tamper-evident audit chain, macOS native display-affinity scanner
+- Companion attack paper: *The Invisible Window* — the defence is designed to neutralise the exact attack class the companion paper documents
 
 <div align="center">
 
@@ -227,15 +227,15 @@
 
 > **[Nexus OS](https://github.com/Raoof128/Nexus-OS)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-ec4899?style=flat-square)
 >
-> ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Tailwind](https://img.shields.io/badge/Tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=09090b) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+> ![React 19](https://img.shields.io/badge/React_19-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Tailwind v4](https://img.shields.io/badge/Tailwind_v4-06b6d4?style=flat-square&logo=tailwindcss&logoColor=09090b) ![Zustand](https://img.shields.io/badge/Zustand-8b5cf6?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 >
-> Cyberpunk desktop environment — modular OS-style UI with tiling window manager, terminal emulator, and a dark neon aesthetic built for the singularity
+> Cyberpunk browser OS — 4-phase windowed desktop with edge-snap tiling, app launcher, Settings / System Monitor / Notes / Terminal apps, and **Aion** integrated as a native windowed app
 
-> **[Aion](https://github.com/Raoof128/Aion)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
+> **[Aion](https://github.com/Raoof128/Aion)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square) ![Nexus OS App](https://img.shields.io/badge/Nexus_OS_App-ec4899?style=flat-square)
 >
 > ![React Native](https://img.shields.io/badge/React_Native-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=09090b) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8b5cf6?style=flat-square)
 >
-> AI-powered Bible companion with **Agentic Hybrid RAG** chat — keyword + semantic search over pgvector, dynamic verse cards, Perplexity-style interface grounded via Gemini 3 Flash
+> AI-powered Bible companion with **Agentic Hybrid RAG** chat — keyword + semantic search over pgvector, dynamic verse cards, Perplexity-style interface grounded via Gemini 3 Flash; integrates into **Nexus OS** as a native windowed app (Home / Chat / Reader views via SSE Edge Functions)
 
 > **[Mehr Guard](https://github.com/Raoof128/MehrGuard)** &nbsp; ![2024](https://img.shields.io/badge/2024-06b6d4?style=flat-square)
 >
