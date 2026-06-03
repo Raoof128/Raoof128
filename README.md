@@ -34,7 +34,7 @@
 <br/>
 
 <!-- Portfolio section divider: cyan → purple → amber -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -60,7 +60,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -121,7 +121,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -185,7 +185,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -256,7 +256,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -276,7 +276,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -297,7 +297,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -317,7 +317,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -340,11 +340,15 @@
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=030014&border=7c3aed&stroke=7c3aed&ring=ec4899&fire=fbbf24&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=e2e8f0&border_radius=0)](https://streak-stats.demolab.com)
+<img src="https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=030014&border=7c3aed&stroke=7c3aed&ring=ec4899&fire=fbbf24&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=e2e8f0&hide_border=false" width="100%" alt="GitHub Streak"/>
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Raoof128&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=6" width="100%" alt="GitHub Trophies"/>
+![Repos 70+](https://img.shields.io/badge/Public_Repos-70%2B-7c3aed?style=for-the-badge&logo=github&logoColor=white)
+![Research](https://img.shields.io/badge/Research_Papers-2-ec4899?style=for-the-badge&logo=readthedocs&logoColor=white)
+![Languages](https://img.shields.io/badge/Languages-9%2B-a78bfa?style=for-the-badge&logo=stackexchange&logoColor=white)
+![Followers](https://img.shields.io/github/followers/Raoof128?style=for-the-badge&color=fbbf24&labelColor=030014&label=Followers&logo=github&logoColor=white)
+![Years](https://img.shields.io/badge/Active_Since-2023-7c3aed?style=for-the-badge&logo=calendar&logoColor=white)
 
 <br/>
 
@@ -355,7 +359,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
@@ -382,7 +386,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
+<img src="Assets/divider.svg" width="100%"/>
 
 <br/>
 
