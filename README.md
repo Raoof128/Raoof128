@@ -88,7 +88,7 @@
 
 <div align="center">
 
-[![Read Paper](https://img.shields.io/badge/Read_Paper-8b5cf6?style=for-the-badge&logo=readthedocs&logoColor=ffffff)](https://raoufabedini.dev/projects/invisible-window-research)
+[![Preprint](https://img.shields.io/badge/Preprint-8b5cf6?style=for-the-badge&logo=readthedocs&logoColor=ffffff)](https://raoufabedini.dev/projects/invisible-window-research)
 
 </div>
 
@@ -110,7 +110,7 @@
 
 <div align="center">
 
-[![Preprint](https://img.shields.io/badge/Preprint-06b6d4?style=for-the-badge&logo=readthedocs&logoColor=09090b)](https://raoufabedini.dev)
+[![Preprint](https://img.shields.io/badge/Preprint-06b6d4?style=for-the-badge&logo=readthedocs&logoColor=09090b)](https://raoufabedini.dev/projects/project-simurgh)
 
 </div>
 
@@ -202,19 +202,19 @@
 
 #### ⚙️ Systems & Security
 
-> **NanoMatch** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
+> **[NanoMatch](https://github.com/Raoof128/NanoMatch)** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
 >
 > ![C++20](https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white) ![GTest](https://img.shields.io/badge/GTest-06b6d4?style=flat-square&logo=google&logoColor=09090b)
 >
 > High-performance matching engine processing **1M+ orders/sec** with sub-microsecond latency — red-black tree price levels, custom memory pool allocator, p50/p99 benchmarks
 
-> **SentinelFlow** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
+> **[SentinelFlow](https://github.com/Raoof128/SentinelFlow)** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
 >
 > ![C++17](https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![libpcap](https://img.shields.io/badge/libpcap-8b5cf6?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-09090b?style=flat-square&logo=linux&logoColor=white)
 >
 > Real-time packet processing engine parsing **500K+ packets/sec** — protocol dissection (Ethernet/IPv4/TCP/UDP/ICMP/DNS), signature-based detection, stateful analysis
 
-> **SimurghForge** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
+> **[SimurghForge](https://github.com/Raoof128/SimurghForge)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
 >
 > ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 >
@@ -231,13 +231,13 @@
 >
 > Full-stack data platform with AI recommendation engine, event-driven API, rate limiting, and automated security scanning — end-to-end ownership from schema to deployment
 
-> **Aion** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
+> **[Aion](https://github.com/Raoof128/Aion)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
 >
 > ![React Native](https://img.shields.io/badge/React_Native-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=09090b) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8b5cf6?style=flat-square)
 >
 > AI-powered Bible companion with **Agentic Hybrid RAG** chat — keyword + semantic search over pgvector, dynamic verse cards, Perplexity-style interface grounded via Gemini 3 Flash
 
-> **Mehr Guard** &nbsp; ![2024](https://img.shields.io/badge/2024-06b6d4?style=flat-square)
+> **[Mehr Guard](https://github.com/Raoof128/MehrGuard)** &nbsp; ![2024](https://img.shields.io/badge/2024-06b6d4?style=flat-square)
 >
 > ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=09090b) ![iOS](https://img.shields.io/badge/iOS-09090b?style=flat-square&logo=apple&logoColor=white)
 >
