@@ -225,7 +225,7 @@
 
 #### 🤖 Full-Stack & AI
 
-> **[Nexus Archive](https://github.com/Raoof128/Nexus-OS)** &nbsp; ![2025](https://img.shields.io/badge/2025-8b5cf6?style=flat-square)
+> **[Nexus OS](https://github.com/Raoof128/Nexus-OS)** &nbsp; ![2025](https://img.shields.io/badge/2025-8b5cf6?style=flat-square)
 >
 > ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 >
