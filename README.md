@@ -119,19 +119,20 @@
 <tr>
 <td>
 
-**🛠 [SimurghForge](https://github.com/Raoof128/SimurghForge)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
+**🛠 [Zurvan](https://github.com/Raoof128/Project-Zurvan)** &nbsp; ![Active](https://img.shields.io/badge/●_Active-a78bfa?style=flat-square)
 
-*Universal File Converter — Local-First, Privacy-Preserving Document Processing*
+*Local-First LLM-Powered Knowledge Engine — Markdown Wiki + Hybrid Search + MCP*
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite_FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white) ![MCP](https://img.shields.io/badge/MCP_stdio-7c3aed?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-- Batch conversion pipeline supporting multiple document and media formats — no files leave the local machine
-- Companion tool to Project Simurgh: designed to operate within privacy-preserving session environments where data must not be transmitted to remote infrastructure
-- Local-first architecture with zero external dependencies at runtime — aligns with the zero-PII-exposure model validated in the Simurgh integrity proof system
+- Ingests raw sources (PDF, MD, TXT, images) and extracts structured knowledge — claims, entities, concepts, decisions — into a **git-diffable, Obsidian-compatible Markdown wiki**
+- Three local SQLite indices: `registry.sqlite` (deduplication), `search.sqlite` (FTS5 + sentence-transformer embeddings for hybrid search), `graph.sqlite` (wikilink knowledge graph)
+- Exposes a **local MCP server over stdio** — Claude Code, Cursor, and Codex-style agents query it via `zurvan_search`, `zurvan_context`, and `zurvan_graph_*` tools; no cloud, no SDK, no LLM loops
+- Designed as a pure storage + retrieval engine: all reasoning is done externally by the calling agent — immutable raw sources, no fabricated citations
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-SimurghForge-7c3aed?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Raoof128/SimurghForge)
+[![GitHub](https://img.shields.io/badge/GitHub-Project--Zurvan-7c3aed?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Raoof128/Project-Zurvan)
 
 </div>
 
