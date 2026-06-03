@@ -6,18 +6,18 @@
 <!-- Typing animation — JetBrains Mono, cyan -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=700&color=06B6D4&center=true&vCenter=true&width=860&lines=AI+Security+Researcher+%7C+Vulnerability+Research+%7C+Systems+Programming;Authored+%22The+Invisible+Window%22+%E2%80%94+Cross-Platform+Evasion+Research;Project+Simurgh+%E2%80%94+Privacy-Preserving+Integrity+Proofs;Python+%7C+C%2FC%2B%2B+%7C+Swift+%7C+TypeScript+%7C+Bash;LLM+Evaluation+%7C+AI+Safety+%7C+Responsible+Disclosure;Building+Aion+%26+SimurghForge+%E2%80%94+AI+%2B+Systems+Projects;Macquarie+University+%E2%80%94+B.Cyber+Security+%2726)](https://readme-typing-svg.demolab.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=700&color=A78BFA&center=true&vCenter=true&width=860&lines=Mapping+the+boundary+where+AI+capability+eclipses+human+control;%22The+Invisible+Window%22+%E2%80%94+Authored+Research+at+the+Event+Horizon;Project+Simurgh+%E2%80%94+Privacy-Preserving+Integrity+Proofs;Python+%7C+C%2FC%2B%2B+%7C+Swift+%7C+TypeScript+%7C+Bash;LLM+Safety+%7C+Capability+Uplift+%7C+Dual-Use+Risk+at+Singularity;Building+Aion+%26+SimurghForge+%E2%80%94+Orbiting+Active+Builds;Macquarie+University+%E2%80%94+B.Cyber+Security+%2726)](https://readme-typing-svg.demolab.com)
 
 </div>
 
 <!-- Social badges — cyan/amber/purple palette from portfolio -->
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-06b6d4?style=for-the-badge&logo=linkedin&logoColor=09090b)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff)](https://raoufabedini.dev)
-[![ORCID](https://img.shields.io/badge/ORCID-0f1115?style=for-the-badge&logo=orcid&logoColor=a6ce39)](https://orcid.org/0009-0000-6214-258X)
-[![Email](https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=09090b)](mailto:raoof.r12@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Raoof128&color=06b6d4&style=for-the-badge&label=VISITORS)](https://github.com/Raoof128)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-7c3aed?style=for-the-badge&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ec4899?style=for-the-badge&logo=googlechrome&logoColor=ffffff)](https://raoufabedini.dev)
+[![ORCID](https://img.shields.io/badge/ORCID-030014?style=for-the-badge&logo=orcid&logoColor=a6ce39)](https://orcid.org/0009-0000-6214-258X)
+[![Email](https://img.shields.io/badge/Email-fbbf24?style=for-the-badge&logo=gmail&logoColor=030014)](mailto:raoof.r12@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=Raoof128&color=7c3aed&style=for-the-badge&label=VISITORS)](https://github.com/Raoof128)
 
 </div>
 
@@ -31,39 +31,40 @@
 <br/>
 
 <!-- Portfolio section divider: cyan → purple → amber -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ ABOUT ══════════════════════════════ -->
 <div align="center">
 
-### `> ./about_me --verbose`
+### `> ./identity --singularity`
 
 </div>
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
-║  🔬  AI Security Researcher — Vulnerability Discovery & Disclosure      ║
-║  📄  Authored "The Invisible Window" — 100% Screen Capture Evasion      ║
-║  🤖  AI Model Evaluation for Anthropic (Claude Code Human Preference)   ║
-║  🧬  LLM Safety · Capability Uplift Measurement · Dual-Use Risk        ║
-║  💻  Systems Programming — C/C++ Engines · Python Tooling · Swift       ║
-║  🎓  B.Cyber Security — Macquarie University (Graduating Nov 2026)      ║
+║  🌌  Mapping where AI capability eclipses human oversight vectors       ║
+║  📡  "Invisible Window" · "Project Simurgh" — Research at the Horizon   ║
+║  🤖  Calibrating AI for Anthropic · Claude Capability Evaluation        ║
+║  🌀  LLM Safety · Capability Uplift · Dual-Use Risk at Singularity      ║
+║  💻  Systems Depth — C/C++ Engines · Python Tooling · Swift             ║
+║  🔭  Orbiting: Aion · SimurghForge · Nexus OS                          ║
+║  🎓  B.Cyber Security — Macquarie University · Nov 2026                 ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ RESEARCH ══════════════════════════════ -->
 <div align="center">
 
-### `> cat /research/*.md`
+### `> deep-scan --sector=research --depth=∞`
 
 </div>
 
@@ -117,14 +118,14 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ SKILLS ══════════════════════════════ -->
 <div align="center">
 
-### `> skills --list-all`
+### `> enumerate --matrix=capabilities`
 
 <br/>
 
@@ -144,10 +145,10 @@
 
 **[ AI / ML ]**
 
-[![LLM Evaluation](https://img.shields.io/badge/LLM_Evaluation-06b6d4?style=for-the-badge&logoColor=09090b)](https://www.anthropic.com)
-[![NLP](https://img.shields.io/badge/NLP-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://en.wikipedia.org/wiki/Natural_language_processing)
-[![AI Safety](https://img.shields.io/badge/AI_Safety-f59e0b?style=for-the-badge&logoColor=09090b)](https://www.anthropic.com/research)
-[![Generative AI](https://img.shields.io/badge/Generative_AI-06b6d4?style=for-the-badge&logoColor=09090b)](https://docs.anthropic.com)
+[![LLM Evaluation](https://img.shields.io/badge/LLM_Evaluation-7c3aed?style=for-the-badge&logoColor=ffffff)](https://www.anthropic.com)
+[![NLP](https://img.shields.io/badge/NLP-ec4899?style=for-the-badge&logoColor=ffffff)](https://en.wikipedia.org/wiki/Natural_language_processing)
+[![AI Safety](https://img.shields.io/badge/AI_Safety-fbbf24?style=for-the-badge&logoColor=030014)](https://www.anthropic.com/research)
+[![Generative AI](https://img.shields.io/badge/Generative_AI-a78bfa?style=for-the-badge&logoColor=030014)](https://docs.anthropic.com)
 
 **[ SYSTEMS & TOOLS ]**
 
@@ -171,24 +172,24 @@
 
 **[ FRAMEWORKS ]**
 
-[![OWASP](https://img.shields.io/badge/OWASP-06b6d4?style=for-the-badge&logoColor=09090b)](https://owasp.org)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://attack.mitre.org)
-[![NIST](https://img.shields.io/badge/NIST-f59e0b?style=for-the-badge&logoColor=09090b)](https://www.nist.gov/cyberframework)
-[![W3C Screen Capture](https://img.shields.io/badge/W3C_Screen_Capture-06b6d4?style=for-the-badge&logoColor=09090b)](https://www.w3.org/TR/screen-capture/)
+[![OWASP](https://img.shields.io/badge/OWASP-7c3aed?style=for-the-badge&logoColor=ffffff)](https://owasp.org)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-ec4899?style=for-the-badge&logoColor=ffffff)](https://attack.mitre.org)
+[![NIST](https://img.shields.io/badge/NIST-fbbf24?style=for-the-badge&logoColor=030014)](https://www.nist.gov/cyberframework)
+[![W3C Screen Capture](https://img.shields.io/badge/W3C_Screen_Capture-a78bfa?style=for-the-badge&logoColor=030014)](https://www.w3.org/TR/screen-capture/)
 
 </div>
 
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ PROJECTS ══════════════════════════════ -->
 <div align="center">
 
-### `> ls -la /projects/`
+### `> probe --orbit=projects --traverse-all`
 
 </div>
 
@@ -252,34 +253,34 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ CURRENTLY BUILDING ══════════════════════════════ -->
 <div align="center">
 
-### `> ps aux | grep active_builds`
+### `> singularity-watch --builds=active`
 
 | 🛠 Project | Description | Stack | Status |
 |:---|:---|:---|:---:|
-| **Aion** | AI Bible companion · Agentic Hybrid RAG | ![React Native](https://img.shields.io/badge/React_Native-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=09090b) ![Gemini](https://img.shields.io/badge/Gemini-8b5cf6?style=flat-square) | ![Active](https://img.shields.io/badge/●_Active-06b6d4?style=flat-square) |
-| **SimurghForge** | Universal file converter · local-first | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Active](https://img.shields.io/badge/●_Active-06b6d4?style=flat-square) |
-| **Nexus OS** | Cyberpunk desktop environment | ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Tailwind](https://img.shields.io/badge/Tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=09090b) | ![Active](https://img.shields.io/badge/●_Active-8b5cf6?style=flat-square) |
+| **Aion** | AI Bible companion · Agentic Hybrid RAG | ![React Native](https://img.shields.io/badge/React_Native-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=09090b) ![Gemini](https://img.shields.io/badge/Gemini-8b5cf6?style=flat-square) | ![Active](https://img.shields.io/badge/●_Active-a78bfa?style=flat-square) |
+| **SimurghForge** | Universal file converter · local-first | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Active](https://img.shields.io/badge/●_Active-a78bfa?style=flat-square) |
+| **Nexus OS** | Cyberpunk desktop environment | ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Tailwind](https://img.shields.io/badge/Tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=09090b) | ![Active](https://img.shields.io/badge/●_Active-ec4899?style=flat-square) |
 
 </div>
 
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ EDUCATION ══════════════════════════════ -->
 <div align="center">
 
-### `> cat /etc/education`
+### `> query --archive=education --origin`
 
 | 🎓 Degree | 🏛 Institution | 📅 Period |
 |:---|:---|:---|
@@ -293,14 +294,14 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ AI SAFETY & COMMUNITY ══════════════════════════════ -->
 <div align="center">
 
-### `> cat /community/ai-safety.md`
+### `> channel --frequency=ai-safety --decode`
 
 </div>
 
@@ -313,30 +314,30 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ STATS ══════════════════════════════ -->
 <div align="center">
 
-### `> cat stats.json`
+### `> telemetry --live --cosmos`
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Raoof128&theme=github_dark" width="100%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Raoof128&theme=dracula" width="100%"/>
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Raoof128&theme=github_dark" height="160em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Raoof128&theme=dracula" height="160em"/>
 &nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Raoof128&theme=github_dark" height="160em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Raoof128&theme=dracula" height="160em"/>
 &nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Raoof128&theme=github_dark" height="160em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Raoof128&theme=dracula" height="160em"/>
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=09090b&border=06b6d4&stroke=06b6d4&ring=8b5cf6&fire=f59e0b&currStreakLabel=06b6d4&sideLabels=06b6d4&dates=e4e4e7&border_radius=0)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=030014&border=7c3aed&stroke=7c3aed&ring=ec4899&fire=fbbf24&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=e2e8f0&border_radius=0)](https://git.io/streak-stats)
 
 <br/>
 
@@ -347,7 +348,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
@@ -365,36 +366,36 @@
 <!-- ══════════════════════════════ ACTIVITY GRAPH ══════════════════════════════ -->
 <div align="center">
 
-### `> htop --graph`
+### `> trace --commit-field --realtime`
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Raoof128&bg_color=09090b&color=06b6d4&line=8b5cf6&point=f59e0b&area=true&area_color=06b6d4&border_color=06b6d4&custom_title=Commit%20Activity%20%7C%20Raoof128&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Raoof128&bg_color=030014&color=a78bfa&line=7c3aed&point=ec4899&area=true&area_color=4c1d95&border_color=7c3aed&custom_title=Commit%20Activity%20%7C%20Raoof128&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030014,20:4c1d95,50:7c3aed,80:ec4899,100:030014&height=2" width="100%"/>
 
 <br/>
 
 <!-- ══════════════════════════════ CONNECT ══════════════════════════════ -->
 <div align="center">
 
-### `> ping --connect`
+### `> establish-link --protocol=singularity`
 
 ```
-> Establishing secure channel...
+> Initiating singularity link...
 > Protocol   : TLS 1.3  |  Auth: Mutual
-> Encryption : AES-256-GCM
-> Target     : Mohammad Raouf Abedini
-> Status     : [●] ONLINE — ready to collaborate
+> Encryption : AES-256-GCM + Ed25519
+> Target     : Mohammad Raouf Abedini — Event Horizon Node
+> Status     : [✦] ONLINE — signal crossing the threshold
 ```
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-06b6d4?style=for-the-badge&logo=linkedin&logoColor=09090b&labelColor=0f1115)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=0f1115)](https://raoufabedini.dev)
-[![Email](https://img.shields.io/badge/Email-Contact-f59e0b?style=for-the-badge&logo=gmail&logoColor=09090b&labelColor=0f1115)](mailto:raoof.r12@gmail.com)
-[![ORCID](https://img.shields.io/badge/ORCID-Research-a6ce39?style=for-the-badge&logo=orcid&logoColor=09090b&labelColor=0f1115)](https://orcid.org/0009-0000-6214-258X)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=030014)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-ec4899?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=030014)](https://raoufabedini.dev)
+[![Email](https://img.shields.io/badge/Email-Contact-fbbf24?style=for-the-badge&logo=gmail&logoColor=030014&labelColor=030014)](mailto:raoof.r12@gmail.com)
+[![ORCID](https://img.shields.io/badge/ORCID-Research-a6ce39?style=for-the-badge&logo=orcid&logoColor=030014&labelColor=030014)](https://orcid.org/0009-0000-6214-258X)
 
 <br/>
 
