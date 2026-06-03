@@ -6,7 +6,7 @@
 <!-- Typing animation — JetBrains Mono, cyan -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=700&color=06B6D4&center=true&vCenter=true&width=860&lines=AI+Security+Researcher+%7C+Vulnerability+Research+%7C+Systems+Programming;Authored+%22The+Invisible+Window%22+%E2%80%94+Cross-Platform+Evasion+Research;Python+%7C+C%2FC%2B%2B+%7C+Swift+%7C+TypeScript+%7C+Bash;LLM+Evaluation+%7C+AI+Safety+%7C+Responsible+Disclosure;Macquarie+University+%E2%80%94+B.Cyber+Security+%2726)](https://readme-typing-svg.demolab.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=700&color=06B6D4&center=true&vCenter=true&width=860&lines=AI+Security+Researcher+%7C+Vulnerability+Research+%7C+Systems+Programming;Authored+%22The+Invisible+Window%22+%E2%80%94+Cross-Platform+Evasion+Research;Project+Simurgh+%E2%80%94+Privacy-Preserving+Integrity+Proofs;Python+%7C+C%2FC%2B%2B+%7C+Swift+%7C+TypeScript+%7C+Bash;LLM+Evaluation+%7C+AI+Safety+%7C+Responsible+Disclosure;Building+Aion+%26+SimurghForge+%E2%80%94+AI+%2B+Systems+Projects;Macquarie+University+%E2%80%94+B.Cyber+Security+%2726)](https://readme-typing-svg.demolab.com)
 
 </div>
 
@@ -71,11 +71,11 @@
 <tr>
 <td>
 
-**📄 The Invisible Window** `2026`
+**📄 The Invisible Window** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
 
 *Exploiting OS-Level Display Affinity to Bypass WebRTC Proctoring Systems*
 
-`C` · `Swift` · `Python` · `Win32 API` · `ScreenCaptureKit` · `WebRTC`
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Win32](https://img.shields.io/badge/Win32_API-09090b?style=flat-square&logo=windows&logoColor=06b6d4) ![ScreenCaptureKit](https://img.shields.io/badge/ScreenCaptureKit-09090b?style=flat-square&logo=apple&logoColor=white) ![WebRTC](https://img.shields.io/badge/WebRTC-8b5cf6?style=flat-square)
 
 - **100% screen capture evasion** across Windows 10/11 and macOS 14–26 via W3C Screen Capture / OS compositing trust boundary violation — zero artefacts over 10,000+ frames
 - **Novel finding:** Apple's macOS 15 ScreenCaptureKit mitigation remains ineffective on macOS 26 — contradicting vendor assumptions through pixel-level forensic verification
@@ -93,11 +93,11 @@
 <tr>
 <td>
 
-**📄 Project Simurgh** `2026`
+**📄 Project Simurgh** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
 
 *Privacy-Preserving Device Integrity Proofs for Capture-Resistant High-Stakes Sessions*
 
-`Ed25519` · `TPM` · `WebExtension` · `Python` · `Cryptography`
+![Ed25519](https://img.shields.io/badge/Ed25519-06b6d4?style=flat-square) ![TPM](https://img.shields.io/badge/TPM-8b5cf6?style=flat-square) ![WebExtension](https://img.shields.io/badge/WebExtension-09090b?style=flat-square&logo=googlechrome&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cryptography](https://img.shields.io/badge/Cryptography-f59e0b?style=flat-square)
 
 - Replaces surveillance-first visual monitoring with **signed, metadata-only integrity proofs** — no screen-capture data collected at any point
 - Combines browser behavioural telemetry, local device integrity daemons, and **Ed25519 cryptographic challenge-response proofs** to verify session authenticity
@@ -198,27 +198,45 @@
 
 #### ⚙️ Systems & Security
 
-> **NanoMatch** — `C++20` · `CMake` · `Google Test` `2026`
+> **NanoMatch** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
+>
+> ![C++20](https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white) ![GTest](https://img.shields.io/badge/GTest-06b6d4?style=flat-square&logo=google&logoColor=09090b)
+>
 > High-performance matching engine processing **1M+ orders/sec** with sub-microsecond latency — red-black tree price levels, custom memory pool allocator, p50/p99 benchmarks
 
-> **SentinelFlow** — `C++17` · `libpcap` · `CMake` · `Google Test` · `Linux` `2026`
+> **SentinelFlow** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
+>
+> ![C++17](https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![libpcap](https://img.shields.io/badge/libpcap-8b5cf6?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-09090b?style=flat-square&logo=linux&logoColor=white)
+>
 > Real-time packet processing engine parsing **500K+ packets/sec** — protocol dissection (Ethernet/IPv4/TCP/UDP/ICMP/DNS), signature-based detection, stateful analysis
 
-> **SimurghForge** — `Python` `2026`
-> Universal file converter — batch conversion pipeline supporting multiple formats, designed for local-first privacy-preserving document processing *(in progress)*
+> **SimurghForge** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
+>
+> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+>
+> Universal file converter — batch conversion pipeline supporting multiple formats, local-first privacy-preserving document processing
 
 </td>
 <td valign="top" width="50%">
 
 #### 🤖 Full-Stack & AI
 
-> **[Nexus Archive](https://github.com/Raoof128/Nexus_Archive)** — `Python/Litestar` · `React` · `PostgreSQL` · `Docker` · `Terraform` `2025`
+> **[Nexus Archive](https://github.com/Raoof128/Nexus_Archive)** &nbsp; ![2025](https://img.shields.io/badge/2025-8b5cf6?style=flat-square)
+>
+> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+>
 > Full-stack data platform with AI recommendation engine, event-driven API, rate limiting, and automated security scanning — end-to-end ownership from schema to deployment
 
-> **Aion** — `React Native` · `Expo` · `Supabase` · `pgvector` · `Gemini` `2026`
-> AI-powered Bible companion with **Agentic Hybrid RAG** chat (keyword + semantic search over pgvector), dynamic verse cards, and Perplexity-style interface — grounded responses via `text-embedding-3-small` + Gemini 3 Flash
+> **Aion** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
+>
+> ![React Native](https://img.shields.io/badge/React_Native-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=09090b) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8b5cf6?style=flat-square)
+>
+> AI-powered Bible companion with **Agentic Hybrid RAG** chat — keyword + semantic search over pgvector, dynamic verse cards, Perplexity-style interface grounded via Gemini 3 Flash
 
-> **Mehr Guard** — `Kotlin Multiplatform` · `Local ML` · `Android & iOS` `2024`
+> **Mehr Guard** &nbsp; ![2024](https://img.shields.io/badge/2024-06b6d4?style=flat-square)
+>
+> ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=09090b) ![iOS](https://img.shields.io/badge/iOS-09090b?style=flat-square&logo=apple&logoColor=white)
+>
 > Cross-platform offline threat detection with local ML classification — submitted to KotlinConf global developer conference
 
 </td>
@@ -228,6 +246,26 @@
 <div align="center">
 
 *70+ additional public projects covering vulnerability research, systems programming, AI/ML tooling, and cloud infrastructure*
+
+</div>
+
+<br/>
+
+<!-- Portfolio section divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:09090b,20:06b6d4,50:8b5cf6,80:f59e0b,100:09090b&height=2" width="100%"/>
+
+<br/>
+
+<!-- ══════════════════════════════ CURRENTLY BUILDING ══════════════════════════════ -->
+<div align="center">
+
+### `> ps aux | grep active_builds`
+
+| 🛠 Project | Description | Stack | Status |
+|:---|:---|:---|:---:|
+| **Aion** | AI Bible companion · Agentic Hybrid RAG | ![React Native](https://img.shields.io/badge/React_Native-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=09090b) ![Gemini](https://img.shields.io/badge/Gemini-8b5cf6?style=flat-square) | ![Active](https://img.shields.io/badge/●_Active-06b6d4?style=flat-square) |
+| **SimurghForge** | Universal file converter · local-first | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Active](https://img.shields.io/badge/●_Active-06b6d4?style=flat-square) |
+| **Nexus OS** | Cyberpunk desktop environment | ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Tailwind](https://img.shields.io/badge/Tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=09090b) | ![Active](https://img.shields.io/badge/●_Active-8b5cf6?style=flat-square) |
 
 </div>
 
@@ -299,6 +337,10 @@
 <br/>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=09090b&border=06b6d4&stroke=06b6d4&ring=8b5cf6&fire=f59e0b&currStreakLabel=06b6d4&sideLabels=06b6d4&dates=e4e4e7&border_radius=0)](https://git.io/streak-stats)
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Raoof128&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%" alt="GitHub Trophies"/>
 
 </div>
 
