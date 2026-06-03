@@ -1,29 +1,44 @@
 <svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Colours matching portfolio globals.css -->
     <linearGradient id="divider" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#09090b"/>
-      <stop offset="15%"  stop-color="#06b6d4" stop-opacity="0.9"/>
-      <stop offset="50%"  stop-color="#8b5cf6" stop-opacity="0.7"/>
-      <stop offset="85%"  stop-color="#f59e0b" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#09090b"/>
+      <stop offset="0%"   stop-color="#030014"/>
+      <stop offset="15%"  stop-color="#7c3aed" stop-opacity="0.9"/>
+      <stop offset="50%"  stop-color="#ec4899" stop-opacity="0.7"/>
+      <stop offset="85%"  stop-color="#fbbf24" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#030014"/>
     </linearGradient>
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#ffffff"/>
-      <stop offset="50%"  stop-color="#e4e4e7"/>
-      <stop offset="100%" stop-color="#06b6d4"/>
+      <stop offset="50%"  stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
     <linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"   stop-color="#06b6d4" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#06b6d4" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#a78bfa" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
-      <stop offset="0%"   stop-color="#0f1115" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#09090b" stop-opacity="0.8"/>
+      <stop offset="0%"   stop-color="#030014" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#030014" stop-opacity="0.85"/>
     </radialGradient>
-    <!-- Glow filters -->
-    <filter id="glow-cyan" x="-15%" y="-60%" width="130%" height="220%">
+    <radialGradient id="ng1" cx="22%" cy="40%" r="28%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#030014" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ng2" cx="78%" cy="65%" r="25%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#030014" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ng3" cx="50%" cy="50%" r="18%">
+      <stop offset="0%" stop-color="#4c1d95" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#030014" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sg" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#ffffff" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow-v" x="-15%" y="-60%" width="130%" height="220%">
       <feGaussianBlur stdDeviation="5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
@@ -31,273 +46,225 @@
       <feGaussianBlur stdDeviation="2.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <!-- Scanline pattern -->
     <pattern id="scanlines" x="0" y="0" width="1200" height="4" patternUnits="userSpaceOnUse">
-      <rect width="1200" height="1" y="3" fill="#ffffff" fill-opacity="0.02"/>
+      <rect width="1200" height="1" y="3" fill="#ffffff" fill-opacity="0.018"/>
     </pattern>
-    <!-- Grid -->
     <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.4" stroke-opacity="0.035"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#a78bfa" stroke-width="0.3" stroke-opacity="0.06"/>
     </pattern>
     <style>
-      .name-main  { font: 900 76px 'Arial Black','Arial Bold',Arial,sans-serif; letter-spacing: 6px; }
-      .name-ghost { font: 900 76px 'Arial Black','Arial Bold',Arial,sans-serif; letter-spacing: 6px; }
-      .role { font: 400 20px 'Courier New',Courier,monospace; letter-spacing: 3px; }
-      .tag  { font: 400 13px 'Courier New',Courier,monospace; letter-spacing: 2px; }
-      .mc   { font: bold 14px 'Courier New',Courier,monospace; }
+      .name-main { font: 900 76px 'Arial Black','Arial Bold',Arial,sans-serif; letter-spacing:6px; }
+      .name-ghost{ font: 900 76px 'Arial Black','Arial Bold',Arial,sans-serif; letter-spacing:6px; }
+      .role { font: 400 20px 'Courier New',Courier,monospace; letter-spacing:3px; }
+      .tag  { font: 400 13px 'Courier New',Courier,monospace; letter-spacing:2px; }
 
-      /* Name glitch — triggers every ~7s */
-      .name-main {
-        animation: glitch-main 7s infinite;
-      }
-      .ghost-r {
-        fill: #f59e0b; opacity: 0;
-        animation: ghost-r 7s infinite;
-      }
-      .ghost-l {
-        fill: #8b5cf6; opacity: 0;
-        animation: ghost-l 7s infinite;
-      }
-
-      /* Corner pulse */
+      .st  { animation: tw var(--d,3s) var(--dl,0s) infinite alternate ease-in-out; }
+      .nb  { animation: nbp 5s var(--dl,0s) infinite alternate ease-in-out; }
+      .sh  { animation: shoot var(--d,12s) var(--dl,0s) infinite linear; opacity:0; }
       .corner { animation: corner-pulse 3s ease-in-out infinite; }
+      .name-main { animation: glitch-main 7s infinite; }
+      .ghost-r { fill:#fbbf24; opacity:0; animation: ghost-r 7s infinite; }
+      .ghost-l { fill:#ec4899;  opacity:0; animation: ghost-l 7s infinite; }
+      .role { animation: fadein 1.2s ease 0.5s both; opacity:0; }
+      .tag  { animation: fadein 1.2s ease 1.0s both; opacity:0; }
 
-      /* Role fade in */
-      .role { animation: fadein 1.2s ease 0.5s both; opacity: 0; }
-      .tag  { animation: fadein 1.2s ease 1.0s both; opacity: 0; }
-
+      @keyframes tw { 0%{opacity:.06} 100%{opacity:1} }
+      @keyframes nbp { 0%{opacity:.1} 100%{opacity:.32} }
+      @keyframes shoot {
+        0%{transform:translate(0,0);opacity:0}
+        4%{opacity:.9} 22%{opacity:0}
+        100%{transform:translate(1300px,80px);opacity:0}
+      }
+      @keyframes corner-pulse { 0%,100%{opacity:.5} 50%{opacity:1} }
       @keyframes glitch-main {
-        0%,85%,100% { transform:translate(0,0); }
-        86%  { transform:translate(-3px,0); }
-        87%  { transform:translate(3px,0);  }
-        88%  { transform:translate(-2px,1px); }
-        89%  { transform:translate(2px,-1px); }
-        90%  { transform:translate(0,0); }
+        0%,85%,100%{transform:translate(0,0)}
+        86%{transform:translate(-3px,0)} 87%{transform:translate(3px,0)}
+        88%{transform:translate(-2px,1px)} 89%{transform:translate(2px,-1px)}
+        90%{transform:translate(0,0)}
       }
       @keyframes ghost-r {
-        0%,85%,91%,100% { opacity:0; transform:translate(0,0); }
-        86%  { opacity:0.35; transform:translate(4px,0); }
-        87%  { opacity:0.2;  transform:translate(-2px,0); }
-        88%  { opacity:0.3;  transform:translate(3px,0); }
-        89%  { opacity:0.15; transform:translate(-1px,0); }
-        90%  { opacity:0;    transform:translate(0,0); }
+        0%,85%,91%,100%{opacity:0;transform:translate(0,0)}
+        86%{opacity:.35;transform:translate(4px,0)}
+        87%{opacity:.2;transform:translate(-2px,0)}
+        88%{opacity:.3;transform:translate(3px,0)}
+        89%{opacity:.15;transform:translate(-1px,0)}
+        90%{opacity:0;transform:translate(0,0)}
       }
       @keyframes ghost-l {
-        0%,85%,91%,100% { opacity:0; transform:translate(0,0); }
-        86%  { opacity:0.3; transform:translate(-4px,0); }
-        87%  { opacity:0.2; transform:translate(2px,0); }
-        88%  { opacity:0.25;transform:translate(-3px,0); }
-        89%  { opacity:0.1; transform:translate(1px,0); }
-        90%  { opacity:0;   transform:translate(0,0); }
-      }
-      @keyframes corner-pulse {
-        0%,100% { opacity:0.5; }
-        50%     { opacity:1.0; }
+        0%,85%,91%,100%{opacity:0;transform:translate(0,0)}
+        86%{opacity:.3;transform:translate(-4px,0)}
+        87%{opacity:.2;transform:translate(2px,0)}
+        88%{opacity:.25;transform:translate(-3px,0)}
+        89%{opacity:.1;transform:translate(1px,0)}
+        90%{opacity:0;transform:translate(0,0)}
       }
       @keyframes fadein {
-        from { opacity:0; transform:translateY(6px); }
-        to   { opacity:1; transform:translateY(0); }
+        from{opacity:0;transform:translateY(6px)}
+        to{opacity:1;transform:translateY(0)}
       }
     </style>
   </defs>
 
-  <!-- ─── Base ─── -->
-  <rect width="1200" height="280" fill="#09090b"/>
+  <!-- void + grid + vignette -->
+  <rect width="1200" height="280" fill="#030014"/>
   <rect width="1200" height="280" fill="url(#grid)"/>
   <rect width="1200" height="280" fill="url(#vignette)"/>
 
-  <!-- ─── Matrix rain columns ─── -->
-  <!-- Column 1 — dur 4.2s, begin 0 -->
-  <g class="mc">
-    <text x="48" y="16"  fill="#0b1e22">0</text><text x="48" y="32"  fill="#0c2429">1</text>
-    <text x="48" y="48"  fill="#0d2b31">A</text><text x="48" y="64"  fill="#0e333a">F</text>
-    <text x="48" y="80"  fill="#103c44">0</text><text x="48" y="96"  fill="#12454f">1</text>
-    <text x="48" y="112" fill="#144f5b">B</text><text x="48" y="128" fill="#165968">0</text>
-    <text x="48" y="144" fill="#186474">C</text><text x="48" y="160" fill="#1a6f81">1</text>
-    <text x="48" y="176" fill="#1c7a8f">0</text><text x="48" y="192" fill="#1e869d">A</text>
-    <text x="48" y="208" fill="#2092ac">F</text><text x="48" y="224" fill="#229fbb">1</text>
-    <text x="48" y="240" fill="#06b6d4" filter="url(#glow-sm)">0</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="4.2s" begin="0s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 2 — dur 3.6s, begin -1.1s -->
-  <g class="mc">
-    <text x="128" y="16"  fill="#0b1e22">F</text><text x="128" y="32"  fill="#0c2429">0</text>
-    <text x="128" y="48"  fill="#0d2b31">1</text><text x="128" y="64"  fill="#0e333a">E</text>
-    <text x="128" y="80"  fill="#103c44">0</text><text x="128" y="96"  fill="#12454f">A</text>
-    <text x="128" y="112" fill="#144f5b">1</text><text x="128" y="128" fill="#165968">0</text>
-    <text x="128" y="144" fill="#186474">B</text><text x="128" y="160" fill="#1a6f81">1</text>
-    <text x="128" y="176" fill="#1c7a8f">F</text><text x="128" y="192" fill="#1e869d">0</text>
-    <text x="128" y="208" fill="#2092ac">C</text><text x="128" y="224" fill="#229fbb">0</text>
-    <text x="128" y="240" fill="#f59e0b" filter="url(#glow-sm)">1</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="3.6s" begin="-1.1s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 3 — dur 5.1s, begin -2.4s -->
-  <g class="mc">
-    <text x="215" y="16"  fill="#0b1e22">1</text><text x="215" y="32"  fill="#0c2429">A</text>
-    <text x="215" y="48"  fill="#0d2b31">0</text><text x="215" y="64"  fill="#0e333a">1</text>
-    <text x="215" y="80"  fill="#103c44">B</text><text x="215" y="96"  fill="#12454f">F</text>
-    <text x="215" y="112" fill="#144f5b">0</text><text x="215" y="128" fill="#165968">1</text>
-    <text x="215" y="144" fill="#186474">A</text><text x="215" y="160" fill="#1a6f81">0</text>
-    <text x="215" y="176" fill="#1c7a8f">C</text><text x="215" y="192" fill="#1e869d">1</text>
-    <text x="215" y="208" fill="#2092ac">0</text><text x="215" y="224" fill="#229fbb">D</text>
-    <text x="215" y="240" fill="#06b6d4" filter="url(#glow-sm)">1</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="5.1s" begin="-2.4s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 4 — dur 4.7s, begin -0.7s -->
-  <g class="mc">
-    <text x="320" y="16"  fill="#0b1e22">0</text><text x="320" y="32"  fill="#0c2429">B</text>
-    <text x="320" y="48"  fill="#0d2b31">1</text><text x="320" y="64"  fill="#0e333a">C</text>
-    <text x="320" y="80"  fill="#103c44">0</text><text x="320" y="96"  fill="#12454f">1</text>
-    <text x="320" y="112" fill="#144f5b">A</text><text x="320" y="128" fill="#165968">0</text>
-    <text x="320" y="144" fill="#186474">F</text><text x="320" y="160" fill="#1a6f81">1</text>
-    <text x="320" y="176" fill="#1c7a8f">B</text><text x="320" y="192" fill="#1e869d">0</text>
-    <text x="320" y="208" fill="#2092ac">1</text><text x="320" y="224" fill="#229fbb">E</text>
-    <text x="320" y="240" fill="#8b5cf6" filter="url(#glow-sm)">0</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="4.7s" begin="-0.7s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 5 — dur 3.9s, begin -3.1s -->
-  <g class="mc">
-    <text x="430" y="16"  fill="#0b1e22">A</text><text x="430" y="32"  fill="#0c2429">0</text>
-    <text x="430" y="48"  fill="#0d2b31">C</text><text x="430" y="64"  fill="#0e333a">1</text>
-    <text x="430" y="80"  fill="#103c44">0</text><text x="430" y="96"  fill="#12454f">B</text>
-    <text x="430" y="112" fill="#144f5b">1</text><text x="430" y="128" fill="#165968">F</text>
-    <text x="430" y="144" fill="#186474">0</text><text x="430" y="160" fill="#1a6f81">A</text>
-    <text x="430" y="176" fill="#1c7a8f">1</text><text x="430" y="192" fill="#1e869d">0</text>
-    <text x="430" y="208" fill="#2092ac">C</text><text x="430" y="224" fill="#229fbb">1</text>
-    <text x="430" y="240" fill="#06b6d4" filter="url(#glow-sm)">B</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="3.9s" begin="-3.1s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 6 — dur 4.4s, begin -1.8s -->
-  <g class="mc">
-    <text x="570" y="16"  fill="#0b1e22">1</text><text x="570" y="32"  fill="#0c2429">F</text>
-    <text x="570" y="48"  fill="#0d2b31">0</text><text x="570" y="64"  fill="#0e333a">A</text>
-    <text x="570" y="80"  fill="#103c44">1</text><text x="570" y="96"  fill="#12454f">0</text>
-    <text x="570" y="112" fill="#144f5b">D</text><text x="570" y="128" fill="#165968">1</text>
-    <text x="570" y="144" fill="#186474">B</text><text x="570" y="160" fill="#1a6f81">0</text>
-    <text x="570" y="176" fill="#1c7a8f">1</text><text x="570" y="192" fill="#1e869d">A</text>
-    <text x="570" y="208" fill="#2092ac">F</text><text x="570" y="224" fill="#229fbb">0</text>
-    <text x="570" y="240" fill="#f59e0b" filter="url(#glow-sm)">1</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="4.4s" begin="-1.8s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 7 — dur 5.3s, begin -0.4s -->
-  <g class="mc">
-    <text x="690" y="16"  fill="#0b1e22">B</text><text x="690" y="32"  fill="#0c2429">1</text>
-    <text x="690" y="48"  fill="#0d2b31">0</text><text x="690" y="64"  fill="#0e333a">C</text>
-    <text x="690" y="80"  fill="#103c44">A</text><text x="690" y="96"  fill="#12454f">1</text>
-    <text x="690" y="112" fill="#144f5b">0</text><text x="690" y="128" fill="#165968">E</text>
-    <text x="690" y="144" fill="#186474">1</text><text x="690" y="160" fill="#1a6f81">B</text>
-    <text x="690" y="176" fill="#1c7a8f">0</text><text x="690" y="192" fill="#1e869d">F</text>
-    <text x="690" y="208" fill="#2092ac">1</text><text x="690" y="224" fill="#229fbb">0</text>
-    <text x="690" y="240" fill="#06b6d4" filter="url(#glow-sm)">A</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="5.3s" begin="-0.4s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 8 — dur 3.7s, begin -2.6s -->
-  <g class="mc">
-    <text x="800" y="16"  fill="#0b1e22">0</text><text x="800" y="32"  fill="#0c2429">D</text>
-    <text x="800" y="48"  fill="#0d2b31">1</text><text x="800" y="64"  fill="#0e333a">B</text>
-    <text x="800" y="80"  fill="#103c44">0</text><text x="800" y="96"  fill="#12454f">A</text>
-    <text x="800" y="112" fill="#144f5b">F</text><text x="800" y="128" fill="#165968">1</text>
-    <text x="800" y="144" fill="#186474">0</text><text x="800" y="160" fill="#1a6f81">C</text>
-    <text x="800" y="176" fill="#1c7a8f">1</text><text x="800" y="192" fill="#1e869d">B</text>
-    <text x="800" y="208" fill="#2092ac">0</text><text x="800" y="224" fill="#229fbb">A</text>
-    <text x="800" y="240" fill="#8b5cf6" filter="url(#glow-sm)">1</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="3.7s" begin="-2.6s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 9 — dur 4.9s, begin -1.3s -->
-  <g class="mc">
-    <text x="920" y="16"  fill="#0b1e22">F</text><text x="920" y="32"  fill="#0c2429">1</text>
-    <text x="920" y="48"  fill="#0d2b31">C</text><text x="920" y="64"  fill="#0e333a">0</text>
-    <text x="920" y="80"  fill="#103c44">B</text><text x="920" y="96"  fill="#12454f">1</text>
-    <text x="920" y="112" fill="#144f5b">A</text><text x="920" y="128" fill="#165968">0</text>
-    <text x="920" y="144" fill="#186474">F</text><text x="920" y="160" fill="#1a6f81">1</text>
-    <text x="920" y="176" fill="#1c7a8f">C</text><text x="920" y="192" fill="#1e869d">0</text>
-    <text x="920" y="208" fill="#2092ac">B</text><text x="920" y="224" fill="#229fbb">1</text>
-    <text x="920" y="240" fill="#06b6d4" filter="url(#glow-sm)">D</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="4.9s" begin="-1.3s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 10 — dur 4.1s, begin -3.7s -->
-  <g class="mc">
-    <text x="1055" y="16"  fill="#0b1e22">A</text><text x="1055" y="32"  fill="#0c2429">0</text>
-    <text x="1055" y="48"  fill="#0d2b31">1</text><text x="1055" y="64"  fill="#0e333a">B</text>
-    <text x="1055" y="80"  fill="#103c44">F</text><text x="1055" y="96"  fill="#12454f">0</text>
-    <text x="1055" y="112" fill="#144f5b">C</text><text x="1055" y="128" fill="#165968">1</text>
-    <text x="1055" y="144" fill="#186474">A</text><text x="1055" y="160" fill="#1a6f81">0</text>
-    <text x="1055" y="176" fill="#1c7a8f">D</text><text x="1055" y="192" fill="#1e869d">1</text>
-    <text x="1055" y="208" fill="#2092ac">0</text><text x="1055" y="224" fill="#229fbb">B</text>
-    <text x="1055" y="240" fill="#f59e0b" filter="url(#glow-sm)">A</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="4.1s" begin="-3.7s" repeatCount="indefinite"/>
-  </g>
-  <!-- Column 11 — dur 3.5s, begin -0.9s -->
-  <g class="mc">
-    <text x="1148" y="16"  fill="#0b1e22">1</text><text x="1148" y="32"  fill="#0c2429">C</text>
-    <text x="1148" y="48"  fill="#0d2b31">0</text><text x="1148" y="64"  fill="#0e333a">A</text>
-    <text x="1148" y="80"  fill="#103c44">1</text><text x="1148" y="96"  fill="#12454f">B</text>
-    <text x="1148" y="112" fill="#144f5b">0</text><text x="1148" y="128" fill="#165968">F</text>
-    <text x="1148" y="144" fill="#186474">1</text><text x="1148" y="160" fill="#1a6f81">0</text>
-    <text x="1148" y="176" fill="#1c7a8f">D</text><text x="1148" y="192" fill="#1e869d">A</text>
-    <text x="1148" y="208" fill="#2092ac">1</text><text x="1148" y="224" fill="#229fbb">0</text>
-    <text x="1148" y="240" fill="#06b6d4" filter="url(#glow-sm)">C</text>
-    <animateTransform attributeName="transform" attributeType="XML" type="translate"
-      from="0 -250" to="0 280" dur="3.5s" begin="-0.9s" repeatCount="indefinite"/>
-  </g>
+  <!-- nebula glows -->
+  <ellipse class="nb" cx="264" cy="112" rx="280" ry="130" fill="url(#ng1)"/>
+  <ellipse class="nb" cx="936" cy="182" rx="260" ry="120" fill="url(#ng2)" style="--dl:2.5s"/>
+  <ellipse class="nb" cx="600" cy="140" rx="200" ry="100" fill="url(#ng3)" style="--dl:1.1s"/>
 
-  <!-- ─── Scanline sweep ─── -->
-  <rect x="0" y="-8" width="1200" height="8" fill="url(#scanGrad)" opacity="0.6">
+  <!-- ── stars row 1 (y 12–35) ── -->
+  <circle class="st" cx="28"   cy="16"  r=".7" fill="#fff"    style="--d:3.1s;--dl:.3s"/>
+  <circle class="st" cx="75"   cy="28"  r=".5" fill="#a78bfa" style="--d:4.2s;--dl:1.2s"/>
+  <circle class="st" cx="135"  cy="14"  r=".8" fill="#fff"    style="--d:2.9s;--dl:.6s"/>
+  <circle class="st" cx="195"  cy="30"  r=".6" fill="#ec4899" style="--d:5.0s;--dl:2.3s"/>
+  <circle class="st" cx="260"  cy="18"  r=".7" fill="#fff"    style="--d:3.7s;--dl:.8s"/>
+  <circle class="st" cx="330"  cy="25"  r="1.0" fill="#fff"   style="--d:4.5s;--dl:1.7s"/>
+  <circle class="st" cx="400"  cy="12"  r=".6" fill="#a78bfa" style="--d:3.3s;--dl:.4s"/>
+  <circle class="st" cx="470"  cy="29"  r=".8" fill="#fff"    style="--d:5.2s;--dl:2.8s"/>
+  <circle class="st" cx="540"  cy="17"  r=".5" fill="#ec4899" style="--d:3.9s;--dl:1.0s"/>
+  <circle class="st" cx="610"  cy="23"  r="1.2" fill="#fff"   style="--d:6.1s;--dl:3.2s"/>
+  <circle class="st" cx="680"  cy="14"  r=".7" fill="#fff"    style="--d:4.0s;--dl:.5s"/>
+  <circle class="st" cx="750"  cy="27"  r=".6" fill="#a78bfa" style="--d:2.8s;--dl:1.5s"/>
+  <circle class="st" cx="820"  cy="19"  r=".8" fill="#fff"    style="--d:4.7s;--dl:.9s"/>
+  <circle class="st" cx="890"  cy="30"  r=".5" fill="#ec4899" style="--d:3.5s;--dl:2.1s"/>
+  <circle class="st" cx="960"  cy="15"  r=".9" fill="#fff"    style="--d:5.4s;--dl:1.3s"/>
+  <circle class="st" cx="1030" cy="26"  r=".7" fill="#a78bfa" style="--d:3.2s;--dl:.7s"/>
+  <circle class="st" cx="1100" cy="13"  r=".6" fill="#fff"    style="--d:4.3s;--dl:1.9s"/>
+  <circle class="st" cx="1165" cy="22"  r=".8" fill="#fff"    style="--d:3.8s;--dl:.3s"/>
+
+  <!-- ── stars row 2 (y 55–90) ── -->
+  <circle class="st" cx="45"   cy="62"  r=".6" fill="#fff"    style="--d:4.4s;--dl:1.1s"/>
+  <circle class="st" cx="110"  cy="78"  r="1.1" fill="#a78bfa" style="--d:5.8s;--dl:2.6s"/>
+  <circle class="st" cx="180"  cy="58"  r=".7" fill="#fff"    style="--d:3.4s;--dl:.5s"/>
+  <circle class="st" cx="248"  cy="85"  r=".5" fill="#ec4899" style="--d:4.9s;--dl:1.8s"/>
+  <circle class="st" cx="318"  cy="64"  r=".9" fill="#fff"    style="--d:3.6s;--dl:.9s"/>
+  <circle class="st" cx="388"  cy="80"  r=".6" fill="#fff"    style="--d:5.3s;--dl:2.4s"/>
+  <circle class="st" cx="458"  cy="60"  r=".8" fill="#a78bfa" style="--d:4.1s;--dl:1.3s"/>
+  <circle class="st" cx="528"  cy="88"  r=".5" fill="#fff"    style="--d:2.7s;--dl:.2s"/>
+  <circle class="st" cx="598"  cy="68"  r="1.4" fill="#fff"   style="--d:7.0s;--dl:3.5s"/>
+  <circle class="st" cx="668"  cy="82"  r=".7" fill="#ec4899" style="--d:3.9s;--dl:1.6s"/>
+  <circle class="st" cx="738"  cy="59"  r=".6" fill="#fff"    style="--d:4.6s;--dl:.7s"/>
+  <circle class="st" cx="808"  cy="76"  r=".8" fill="#a78bfa" style="--d:3.3s;--dl:2.0s"/>
+  <circle class="st" cx="878"  cy="63"  r=".5" fill="#fff"    style="--d:5.1s;--dl:1.0s"/>
+  <circle class="st" cx="948"  cy="87"  r=".9" fill="#fff"    style="--d:4.3s;--dl:.4s"/>
+  <circle class="st" cx="1018" cy="66"  r=".7" fill="#ec4899" style="--d:3.7s;--dl:1.7s"/>
+  <circle class="st" cx="1088" cy="79"  r=".6" fill="#fff"    style="--d:4.8s;--dl:2.3s"/>
+  <circle class="st" cx="1158" cy="61"  r=".8" fill="#a78bfa" style="--d:3.1s;--dl:.6s"/>
+
+  <!-- ── stars row 3 (y 115–155) ── -->
+  <circle class="st" cx="22"   cy="122" r=".7" fill="#fff"    style="--d:4.2s;--dl:2.1s"/>
+  <circle class="st" cx="95"   cy="148" r=".5" fill="#a78bfa" style="--d:3.5s;--dl:.8s"/>
+  <circle class="st" cx="168"  cy="125" r=".9" fill="#fff"    style="--d:5.5s;--dl:1.4s"/>
+  <circle class="st" cx="242"  cy="152" r=".6" fill="#ec4899" style="--d:3.0s;--dl:.3s"/>
+  <circle class="st" cx="315"  cy="130" r=".8" fill="#fff"    style="--d:4.7s;--dl:2.5s"/>
+  <circle class="st" cx="388"  cy="145" r="1.0" fill="#fff"   style="--d:6.3s;--dl:3.0s"/>
+  <circle class="st" cx="462"  cy="118" r=".7" fill="#a78bfa" style="--d:3.8s;--dl:1.2s"/>
+  <circle class="st" cx="535"  cy="150" r=".5" fill="#fff"    style="--d:4.5s;--dl:.6s"/>
+  <circle class="st" cx="608"  cy="128" r=".8" fill="#ec4899" style="--d:3.3s;--dl:1.9s"/>
+  <circle class="st" cx="682"  cy="153" r="1.3" fill="#fff"   style="--d:5.9s;--dl:2.8s"/>
+  <circle class="st" cx="755"  cy="120" r=".6" fill="#fff"    style="--d:4.0s;--dl:.5s"/>
+  <circle class="st" cx="828"  cy="147" r=".7" fill="#a78bfa" style="--d:3.6s;--dl:1.6s"/>
+  <circle class="st" cx="902"  cy="132" r=".5" fill="#fff"    style="--d:5.2s;--dl:2.2s"/>
+  <circle class="st" cx="975"  cy="149" r=".9" fill="#ec4899" style="--d:4.1s;--dl:.9s"/>
+  <circle class="st" cx="1048" cy="122" r=".7" fill="#fff"    style="--d:3.4s;--dl:1.5s"/>
+  <circle class="st" cx="1122" cy="144" r=".6" fill="#a78bfa" style="--d:4.8s;--dl:2.0s"/>
+  <circle class="st" cx="1178" cy="130" r=".8" fill="#fff"    style="--d:3.9s;--dl:.4s"/>
+
+  <!-- ── stars row 4 (y 175–215) ── -->
+  <circle class="st" cx="55"   cy="182" r=".6" fill="#a78bfa" style="--d:3.7s;--dl:1.3s"/>
+  <circle class="st" cx="125"  cy="198" r=".8" fill="#fff"    style="--d:5.0s;--dl:2.7s"/>
+  <circle class="st" cx="198"  cy="178" r=".5" fill="#ec4899" style="--d:3.2s;--dl:.7s"/>
+  <circle class="st" cx="270"  cy="210" r=".9" fill="#fff"    style="--d:4.6s;--dl:1.8s"/>
+  <circle class="st" cx="342"  cy="185" r=".7" fill="#fff"    style="--d:3.8s;--dl:.3s"/>
+  <circle class="st" cx="415"  cy="205" r=".5" fill="#a78bfa" style="--d:5.4s;--dl:2.4s"/>
+  <circle class="st" cx="488"  cy="180" r=".8" fill="#fff"    style="--d:4.2s;--dl:1.1s"/>
+  <circle class="st" cx="560"  cy="212" r="1.1" fill="#fff"   style="--d:6.5s;--dl:3.3s"/>
+  <circle class="st" cx="632"  cy="183" r=".6" fill="#ec4899" style="--d:3.5s;--dl:.8s"/>
+  <circle class="st" cx="705"  cy="208" r=".7" fill="#fff"    style="--d:4.3s;--dl:2.0s"/>
+  <circle class="st" cx="778"  cy="177" r=".9" fill="#a78bfa" style="--d:3.9s;--dl:1.4s"/>
+  <circle class="st" cx="850"  cy="204" r=".5" fill="#fff"    style="--d:5.1s;--dl:.5s"/>
+  <circle class="st" cx="922"  cy="186" r=".7" fill="#fff"    style="--d:4.0s;--dl:1.9s"/>
+  <circle class="st" cx="995"  cy="209" r=".6" fill="#ec4899" style="--d:3.3s;--dl:2.6s"/>
+  <circle class="st" cx="1068" cy="182" r=".8" fill="#fff"    style="--d:4.7s;--dl:.9s"/>
+  <circle class="st" cx="1140" cy="198" r=".5" fill="#a78bfa" style="--d:3.6s;--dl:1.5s"/>
+  <circle class="st" cx="1185" cy="178" r=".7" fill="#fff"    style="--d:5.3s;--dl:.4s"/>
+
+  <!-- ── stars row 5 (y 232–268) ── -->
+  <circle class="st" cx="38"   cy="240" r=".6" fill="#fff"    style="--d:4.1s;--dl:1.8s"/>
+  <circle class="st" cx="105"  cy="258" r=".8" fill="#a78bfa" style="--d:3.4s;--dl:.6s"/>
+  <circle class="st" cx="175"  cy="236" r=".5" fill="#fff"    style="--d:5.2s;--dl:2.3s"/>
+  <circle class="st" cx="245"  cy="265" r=".7" fill="#ec4899" style="--d:3.9s;--dl:1.0s"/>
+  <circle class="st" cx="315"  cy="244" r=".9" fill="#fff"    style="--d:4.8s;--dl:.3s"/>
+  <circle class="st" cx="385"  cy="260" r=".6" fill="#fff"    style="--d:3.6s;--dl:2.1s"/>
+  <circle class="st" cx="455"  cy="238" r=".8" fill="#a78bfa" style="--d:5.5s;--dl:1.6s"/>
+  <circle class="st" cx="525"  cy="266" r=".5" fill="#fff"    style="--d:3.2s;--dl:.7s"/>
+  <circle class="st" cx="595"  cy="245" r="1.0" fill="#fff"   style="--d:6.0s;--dl:3.1s"/>
+  <circle class="st" cx="665"  cy="262" r=".7" fill="#ec4899" style="--d:4.4s;--dl:1.3s"/>
+  <circle class="st" cx="735"  cy="237" r=".6" fill="#fff"    style="--d:3.7s;--dl:.9s"/>
+  <circle class="st" cx="805"  cy="258" r=".8" fill="#a78bfa" style="--d:4.9s;--dl:2.5s"/>
+  <circle class="st" cx="875"  cy="242" r=".5" fill="#fff"    style="--d:3.3s;--dl:.4s"/>
+  <circle class="st" cx="945"  cy="264" r=".7" fill="#fff"    style="--d:5.0s;--dl:1.7s"/>
+  <circle class="st" cx="1015" cy="239" r=".9" fill="#ec4899" style="--d:4.2s;--dl:2.0s"/>
+  <circle class="st" cx="1085" cy="256" r=".6" fill="#fff"    style="--d:3.8s;--dl:.8s"/>
+  <circle class="st" cx="1155" cy="243" r=".7" fill="#a78bfa" style="--d:5.3s;--dl:1.4s"/>
+  <circle class="st" cx="1188" cy="262" r=".5" fill="#fff"    style="--d:4.5s;--dl:2.9s"/>
+
+  <!-- ── bright accent stars ── -->
+  <circle class="st" cx="152"  cy="95"  r="2.0" fill="#fff"    style="--d:6.8s;--dl:1.5s"/>
+  <circle class="st" cx="448"  cy="50"  r="1.8" fill="#a78bfa" style="--d:7.5s;--dl:3.3s"/>
+  <circle class="st" cx="760"  cy="108" r="2.2" fill="#fff"    style="--d:6.2s;--dl:.7s"/>
+  <circle class="st" cx="994"  cy="40"  r="1.7" fill="#ec4899" style="--d:8.0s;--dl:2.2s"/>
+  <circle class="st" cx="310"  cy="230" r="2.1" fill="#fff"    style="--d:7.1s;--dl:4.0s"/>
+  <circle class="st" cx="890"  cy="220" r="1.9" fill="#a78bfa" style="--d:6.5s;--dl:1.8s"/>
+  <circle class="st" cx="600"  cy="190" r="2.4" fill="#fff"    style="--d:7.8s;--dl:3.8s"/>
+
+  <!-- ── shooting stars ── -->
+  <rect class="sh" x="0" y="45"  width="90" height="1.5" rx=".8" fill="url(#sg)" style="--d:11s;--dl:0s"/>
+  <rect class="sh" x="0" y="160" width="70" height="1.2" rx=".6" fill="url(#sg)" style="--d:15s;--dl:6.5s"/>
+
+  <!-- scanline sweep -->
+  <rect x="0" y="-8" width="1200" height="8" fill="url(#scanGrad)" opacity="0.5">
     <animate attributeName="y" from="-8" to="284" dur="5s" repeatCount="indefinite" begin="0s"/>
   </rect>
 
-  <!-- Scanline texture -->
+  <!-- scanline texture -->
   <rect width="1200" height="280" fill="url(#scanlines)"/>
 
-  <!-- ─── Corner brackets ─── -->
-  <!-- Top-left cyan -->
+  <!-- corner brackets -->
   <g class="corner">
-    <polyline points="0,0 64,0"   fill="none" stroke="#06b6d4" stroke-width="2.5" filter="url(#glow-sm)"/>
-    <polyline points="0,0 0,64"   fill="none" stroke="#06b6d4" stroke-width="2.5" filter="url(#glow-sm)"/>
-    <polyline points="10,0 10,10 0,10" fill="none" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.5"/>
+    <polyline points="0,0 64,0"   fill="none" stroke="#7c3aed" stroke-width="2.5" filter="url(#glow-sm)"/>
+    <polyline points="0,0 0,64"   fill="none" stroke="#7c3aed" stroke-width="2.5" filter="url(#glow-sm)"/>
+    <polyline points="10,0 10,10 0,10" fill="none" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.5"/>
   </g>
-  <!-- Top-right amber -->
   <g class="corner">
-    <polyline points="1136,0 1200,0"  fill="none" stroke="#f59e0b" stroke-width="2.5" filter="url(#glow-sm)"/>
-    <polyline points="1200,0 1200,64" fill="none" stroke="#f59e0b" stroke-width="2.5" filter="url(#glow-sm)"/>
-    <polyline points="1190,0 1190,10 1200,10" fill="none" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.5"/>
+    <polyline points="1136,0 1200,0"  fill="none" stroke="#fbbf24" stroke-width="2.5" filter="url(#glow-sm)"/>
+    <polyline points="1200,0 1200,64" fill="none" stroke="#fbbf24" stroke-width="2.5" filter="url(#glow-sm)"/>
+    <polyline points="1190,0 1190,10 1200,10" fill="none" stroke="#fbbf24" stroke-width="1" stroke-opacity="0.5"/>
   </g>
-  <!-- Bottom-left purple -->
   <g class="corner">
-    <polyline points="0,216 0,280"  fill="none" stroke="#8b5cf6" stroke-width="2.5" filter="url(#glow-sm)"/>
-    <polyline points="0,280 64,280" fill="none" stroke="#8b5cf6" stroke-width="2.5" filter="url(#glow-sm)"/>
-    <polyline points="10,280 10,270 0,270" fill="none" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.5"/>
+    <polyline points="0,216 0,280"  fill="none" stroke="#ec4899" stroke-width="2.5" filter="url(#glow-sm)"/>
+    <polyline points="0,280 64,280" fill="none" stroke="#ec4899" stroke-width="2.5" filter="url(#glow-sm)"/>
+    <polyline points="10,280 10,270 0,270" fill="none" stroke="#ec4899" stroke-width="1" stroke-opacity="0.5"/>
   </g>
-  <!-- Bottom-right cyan -->
   <g class="corner">
-    <polyline points="1200,216 1200,280"  fill="none" stroke="#06b6d4" stroke-width="2.5" filter="url(#glow-sm)"/>
-    <polyline points="1136,280 1200,280"  fill="none" stroke="#06b6d4" stroke-width="2.5" filter="url(#glow-sm)"/>
-    <polyline points="1190,280 1190,270 1200,270" fill="none" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.5"/>
+    <polyline points="1200,216 1200,280"  fill="none" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow-sm)"/>
+    <polyline points="1136,280 1200,280"  fill="none" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow-sm)"/>
+    <polyline points="1190,280 1190,270 1200,270" fill="none" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.5"/>
   </g>
 
-  <!-- ─── Name (3 layers for glitch) ─── -->
-  <!-- Amber ghost (right) -->
+  <!-- name glitch layers -->
   <text x="600" y="148" text-anchor="middle" class="name-ghost ghost-r">RAOUF ABEDINI</text>
-  <!-- Purple ghost (left) -->
   <text x="600" y="148" text-anchor="middle" class="name-ghost ghost-l">RAOUF ABEDINI</text>
-  <!-- Main layer -->
-  <text x="600" y="148" text-anchor="middle" class="name-main" fill="url(#nameGrad)" filter="url(#glow-cyan)">RAOUF ABEDINI</text>
+  <text x="600" y="148" text-anchor="middle" class="name-main" fill="url(#nameGrad)" filter="url(#glow-v)">RAOUF ABEDINI</text>
 
-  <!-- ─── Subtitle ─── -->
-  <text x="600" y="190" text-anchor="middle" class="role" fill="#06b6d4" filter="url(#glow-sm)">AI Security Researcher</text>
-  <text x="600" y="220" text-anchor="middle" class="tag" fill="#8b5cf6" fill-opacity="0.85">Vulnerability Research  ·  AI Safety  ·  Systems Programming  ·  Australia</text>
+  <!-- subtitle -->
+  <text x="600" y="190" text-anchor="middle" class="role" fill="#a78bfa" filter="url(#glow-sm)">AI Security Researcher</text>
+  <text x="600" y="220" text-anchor="middle" class="tag" fill="#ec4899" fill-opacity="0.85">Vulnerability Research  ·  AI Safety  ·  Systems Programming  ·  Australia</text>
 
-  <!-- ─── Portfolio divider borders ─── -->
+  <!-- border lines -->
   <rect x="0" y="0"   width="1200" height="2" fill="url(#divider)"/>
   <rect x="0" y="278" width="1200" height="2" fill="url(#divider)"/>
 </svg>

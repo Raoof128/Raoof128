@@ -34,7 +34,7 @@
 <br/>
 
 <!-- Portfolio section divider: cyan → purple → amber -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -60,7 +60,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -121,7 +121,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -185,7 +185,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -256,7 +256,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -276,7 +276,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -297,7 +297,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -317,7 +317,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -340,11 +340,11 @@
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=030014&border=7c3aed&stroke=7c3aed&ring=ec4899&fire=fbbf24&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=e2e8f0&border_radius=0)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=030014&border=7c3aed&stroke=7c3aed&ring=ec4899&fire=fbbf24&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=e2e8f0&border_radius=0)](https://streak-stats.demolab.com)
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Raoof128&theme=radical&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Raoof128&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=6" width="100%" alt="GitHub Trophies"/>
 
 <br/>
 
@@ -355,7 +355,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
@@ -382,7 +382,7 @@
 <br/>
 
 <!-- Portfolio section divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030014,30:4c1d95,60:7c3aed,100:ec4899&height=50&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:030014,40:4c1d95,70:7c3aed,100:ec4899&height=30&theme=dark" width="100%"/>
 
 <br/>
 
