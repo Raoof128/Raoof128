@@ -225,11 +225,11 @@
 
 #### 🤖 Full-Stack & AI
 
-> **[Nexus OS](https://github.com/Raoof128/Nexus-OS)** &nbsp; ![2025](https://img.shields.io/badge/2025-8b5cf6?style=flat-square)
+> **[Nexus OS](https://github.com/Raoof128/Nexus-OS)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-ec4899?style=flat-square)
 >
-> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+> ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Tailwind](https://img.shields.io/badge/Tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=09090b) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 >
-> Full-stack data platform with AI recommendation engine, event-driven API, rate limiting, and automated security scanning — end-to-end ownership from schema to deployment
+> Cyberpunk desktop environment — modular OS-style UI with tiling window manager, terminal emulator, and a dark neon aesthetic built for the singularity
 
 > **[Aion](https://github.com/Raoof128/Aion)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
 >
