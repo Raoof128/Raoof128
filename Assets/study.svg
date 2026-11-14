@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-labelledby="t d">
+  <title id="t">Project Simurgh transfer study, October 2026</title>
+  <desc id="d">Restricted-state trials that produced new effects, out of 24 per arm. Meta Llama-3.2-3B: 17 of 24 at baseline, 0 of 24 with composed host controls, with 23 of 24 useful completions kept and no valid proposal blocked. OpenAI gpt-6-luna: 0 of 24 at baseline and 0 of 24 with composed host controls, so no incremental protection was observed there. Wilson 95 percent intervals computed per state across six states: 43.6 to 97.0 percent versus 0.0 to 39.0 percent.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#0b4f9e"/><stop offset="0.45" stop-color="#0a3877"/><stop offset="1" stop-color="#041a3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.16" cy="-0.06" r="0.9">
+      <stop offset="0" stop-color="#bfe6ff" stop-opacity="0.5"/><stop offset="0.35" stop-color="#58b2f5" stop-opacity="0.2"/><stop offset="1" stop-color="#58b2f5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.62"/><stop offset="0.5" stop-color="#cfe6fa" stop-opacity="0.34"/><stop offset="1" stop-color="#bcdcf5" stop-opacity="0.42"/>
+    </linearGradient>
+    <linearGradient id="close" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3a79c"/><stop offset="0.5" stop-color="#d1442f"/><stop offset="1" stop-color="#b3261e"/>
+    </linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.75"/><stop offset="1" stop-color="#b9d6ee" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#00102b" flood-opacity="0.55"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="560" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .ui { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; }
+    .hit { animation: pop 0.45s ease-out both; transform-box: fill-box; transform-origin: center; }
+    @keyframes pop { from { opacity: 0; transform: scale(0.2); } to { opacity: 1; transform: scale(1); } }
+    @media (prefers-reduced-motion: reduce) { .hit { animation: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="560" fill="url(#sky)"/>
+    <rect width="1200" height="560" fill="url(#glow)"/>
+    <g filter="url(#shadow)">
+      <rect x="60" y="24" width="1080" height="512" rx="9" fill="url(#glass)" stroke="#10305c" stroke-opacity="0.8"/>
+      <rect x="61" y="25" width="1078" height="510" rx="8" fill="none" stroke="#ffffff" stroke-opacity="0.6"/>
+    </g>
+    <text x="82" y="47" class="ui" font-size="15" fill="#0b1f3a">Project Simurgh · transfer study · 15–17 Oct 2026</text>
+    <rect x="1018" y="25" width="30" height="20" fill="url(#btn)" stroke="#10305c" stroke-opacity="0.5"/>
+    <rect x="1048" y="25" width="30" height="20" fill="url(#btn)" stroke="#10305c" stroke-opacity="0.5"/>
+    <path d="M1078 25 h46 v14 a6 6 0 0 1 -6 6 h-40 z" fill="url(#close)" stroke="#5c120c" stroke-opacity="0.7"/>
+    <rect x="1028" y="37" width="10" height="2.5" fill="#0b1f3a"/>
+    <rect x="1058.5" y="30.5" width="9" height="8" fill="none" stroke="#0b1f3a" stroke-width="1.6"/>
+    <path d="M1096 30 l10 10 M1106 30 l-10 10" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+
+    <rect x="68" y="56" width="1064" height="472" fill="#ffffff" stroke="#10305c" stroke-opacity="0.45"/>
+
+    <text x="100" y="102" class="ui" font-size="27" font-weight="700" fill="#0b1f3a">Restricted-state trials that produced new effects</text>
+    <text x="100" y="130" class="ui" font-size="15" fill="#3d3d3d">Lower is better. 24 restricted-state trials per arm · three matched controls · two live models · 288 replayed branches</text>
+    <path d="M100 150 H1100" stroke="#d5dfe5"/>
+    <path d="M600 168 V428" stroke="#d5dfe5"/>
+
+    <!-- Llama -->
+    <text x="100" y="190" class="ui" font-size="21" font-weight="700" fill="#0b1f3a">Meta Llama-3.2-3B</text>
+    <text x="100" y="222" class="mono" font-size="12" letter-spacing="1.4" fill="#6b7785">BASELINE</text>
+    <text x="350" y="222" class="mono" font-size="12" letter-spacing="1.4" fill="#0b4f9e">COMPOSED HOST CONTROLS</text>
+    <g>
+      <circle cx="111" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.30s" cx="111" cy="247" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="139" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.37s" cx="139" cy="247" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="167" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.44s" cx="167" cy="247" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="195" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.51s" cx="195" cy="247" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="223" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.58s" cx="223" cy="247" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="251" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.65s" cx="251" cy="247" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="279" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.72s" cx="279" cy="247" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="307" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.79s" cx="307" cy="247" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="111" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.86s" cx="111" cy="275" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="139" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:0.93s" cx="139" cy="275" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="167" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:1.00s" cx="167" cy="275" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="195" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:1.07s" cx="195" cy="275" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="223" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:1.14s" cx="223" cy="275" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="251" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:1.21s" cx="251" cy="275" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="279" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:1.28s" cx="279" cy="275" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="307" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:1.35s" cx="307" cy="275" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="111" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/><circle class="hit" style="animation-delay:1.42s" cx="111" cy="303" r="10" fill="#d1442f" stroke="#9c1f15"/>
+      <circle cx="139" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="167" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="195" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="223" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="251" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="279" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="307" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+    </g>
+    <g>
+      <circle cx="361" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="389" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="417" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="445" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="473" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="501" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="529" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="557" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="361" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="389" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="417" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="445" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="473" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="501" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="529" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="557" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="361" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="389" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="417" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="445" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="473" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="501" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="529" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="557" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+    </g>
+    <text x="100" y="366" class="ui" font-size="38" font-weight="700" fill="#b3261e">17<tspan font-size="22" fill="#6b7785">/24</tspan></text>
+    <text x="350" y="366" class="ui" font-size="38" font-weight="700" fill="#0b4f9e">0<tspan font-size="22" fill="#6b7785">/24</tspan></text>
+    <text x="100" y="402" class="ui" font-size="15" fill="#0b1f3a">23/24 useful completions kept. No valid proposal blocked.</text>
+
+    <!-- gpt-6-luna -->
+    <text x="632" y="190" class="ui" font-size="21" font-weight="700" fill="#0b1f3a">OpenAI gpt-6-luna</text>
+    <rect x="826" y="172" width="110" height="24" rx="12" fill="#fff4d6" stroke="#e0b343"/>
+    <text x="881" y="189" class="mono" font-size="12" letter-spacing="1.2" text-anchor="middle" fill="#7a5200">NULL RESULT</text>
+    <text x="632" y="222" class="mono" font-size="12" letter-spacing="1.4" fill="#6b7785">BASELINE</text>
+    <text x="882" y="222" class="mono" font-size="12" letter-spacing="1.4" fill="#0b4f9e">COMPOSED HOST CONTROLS</text>
+    <g>
+      <circle cx="643" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="671" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="699" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="727" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="755" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="783" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="811" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="839" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="643" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="671" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="699" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="727" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="755" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="783" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="811" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="839" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="643" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="671" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="699" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="727" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="755" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="783" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="811" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="839" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+    </g>
+    <g>
+      <circle cx="893" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="921" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="949" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="977" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1005" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1033" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1061" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1089" cy="247" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="893" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="921" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="949" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="977" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1005" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1033" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1061" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1089" cy="275" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="893" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="921" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="949" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="977" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1005" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1033" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1061" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+      <circle cx="1089" cy="303" r="10" fill="#f3f7fb" stroke="#9db4c8"/>
+    </g>
+    <text x="632" y="366" class="ui" font-size="38" font-weight="700" fill="#0b4f9e">0<tspan font-size="22" fill="#6b7785">/24</tspan></text>
+    <text x="882" y="366" class="ui" font-size="38" font-weight="700" fill="#0b4f9e">0<tspan font-size="22" fill="#6b7785">/24</tspan></text>
+    <text x="632" y="402" class="ui" font-size="15" fill="#0b1f3a">Baseline already clean. No incremental protection observed.</text>
+
+    <!-- uncertainty note -->
+    <rect x="100" y="440" width="1000" height="66" rx="4" fill="#eaf6fd" stroke="#bee6fd"/>
+    <text x="118" y="467" class="ui" font-size="14.500" fill="#0b1f3a"><tspan font-weight="700">Uncertainty.</tspan> The 24 restricted trials fall into six states, so intervals are per state: Wilson 95% 43.6–97.0% versus 0.0–39.0%.</text>
+    <text x="118" y="490" class="ui" font-size="14.500" fill="#3d3d3d">Part of the gap holds by construction. These are trial-level outcomes in one study, not a general safety guarantee.</text>
+  </g>
+</svg>

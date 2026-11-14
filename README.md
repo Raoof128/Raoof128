@@ -1,437 +1,82 @@
-<!-- ══════════════════════════════ HEADER ══════════════════════════════ -->
-<div align="center">
-  <img src="Assets/header.svg" alt="Raouf Abedini — AI Security Researcher" width="100%"/>
-</div>
+<a href="https://raoufabedini.dev">
+  <img src="Assets/hero.svg" width="100%" alt="Mohammad Raouf Abedini, AI security researcher. I build host-side controls for what AI agents are permitted to do, then test them against live models."/>
+</a>
 
-<!-- Typing animation — JetBrains Mono, cyan -->
-<div align="center">
+<p align="center">
+  <a href="https://raoufabedini.dev"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://raoufabedini.dev/resume">Résumé</a> &nbsp;·&nbsp;
+  <a href="https://raoufabedini.dev/write-ups">Write-ups</a> &nbsp;·&nbsp;
+  <a href="https://orcid.org/0009-0000-6214-258X">ORCID</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:raoof.r12@gmail.com">Email</a>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=700&color=A78BFA&center=true&vCenter=true&width=860&lines=Mapping+the+boundary+where+AI+capability+eclipses+human+control;%22The+Invisible+Window%22+%E2%80%94+Authored+Research+at+the+Event+Horizon;Project+Simurgh+%E2%80%94+Privacy-Preserving+Integrity+Proofs;Python+%7C+C%2FC%2B%2B+%7C+Swift+%7C+TypeScript+%7C+Bash;LLM+Safety+%7C+Capability+Uplift+%7C+Dual-Use+Risk+at+Singularity;Building+Aion+%26+SimurghForge+%E2%80%94+Orbiting+Active+Builds;Macquarie+University+%E2%80%94+B.Cyber+Security+%2726)](https://readme-typing-svg.demolab.com)
+I work on keeping tool-using AI agents safe. I build host-side controls for what an agent is permitted to do, then run matched-control experiments against live models to find out whether those controls change anything. When they change nothing, that goes in the write-up too.
 
-</div>
+Before this I spent seven years in security operations and engineering. I have five sole-author preprints, two coordinated vendor disclosures (Microsoft and Apple), and I evaluated Claude for exploitable code and guardrail circumvention in Anthropic's safety-evaluation program through Alignerr.
 
-<!-- Social badges — cyan/amber/purple palette from portfolio -->
-<div align="center">
+## The result I lead with
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-7c3aed?style=for-the-badge&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ec4899?style=for-the-badge&logo=googlechrome&logoColor=ffffff)](https://raoufabedini.dev)
-[![ORCID](https://img.shields.io/badge/ORCID-030014?style=for-the-badge&logo=orcid&logoColor=a6ce39)](https://orcid.org/0009-0000-6214-258X)
-[![Email](https://img.shields.io/badge/Email-fbbf24?style=for-the-badge&logo=gmail&logoColor=030014)](mailto:raoof.r12@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Raoof128&color=7c3aed&style=for-the-badge&label=VISITORS)](https://github.com/Raoof128)
+<a href="https://github.com/Raoof128/Project-Simurgh">
+  <img src="Assets/study.svg" width="100%" alt="Project Simurgh transfer study, October 2026. Restricted-state trials that produced new effects: Meta Llama-3.2-3B 17 of 24 at baseline and 0 of 24 with composed host controls, 23 of 24 useful completions kept, no valid proposal blocked. OpenAI gpt-6-luna 0 of 24 at baseline and 0 of 24 with controls, so no incremental protection was observed. Wilson 95% per-state intervals 43.6 to 97.0 percent versus 0.0 to 39.0 percent."/>
+</a>
 
-</div>
+[**Project Simurgh**](https://github.com/Raoof128/Project-Simurgh) is an open-source authorization and containment prototype for AI agents. I am its sole author. In October 2026 I ran a transfer study: 24 tasks, two trials each, three matched controls (credential-only, composed, deny-all) and two models, 288 replayed branches in total. Protocol to published package took three days.
 
-<br/>
+On Meta Llama-3.2-3B the composed host controls cut restricted-state trials with new effects from 17/24 to 0/24, kept 23/24 useful completions and blocked no valid proposal. On OpenAI gpt-6-luna the baseline was already 0/24, so the study reports no incremental protection there.
 
-<!-- ══════════════════════════════ COSMIC STARFIELD ══════════════════════════════ -->
-<img src="Assets/cosmic.svg" width="100%" alt="Cosmic Starfield"/>
+More from the same project:
 
-<!-- ══════════════════════════════ TERMINAL SVG ══════════════════════════════ -->
-<div align="center">
-  <img src="Assets/terminal.svg" width="98%" alt="Terminal Animation"/>
-</div>
+- **Classifier coverage.** I captured a live Llama Guard 4 12B input classifier over a 180-case set and produced containment evidence for all 138 malicious cases it missed. 120 of them were downstream injections that an input-only classifier cannot see. This is a coverage claim, and it does not rank classifiers.
+- **AgentDojo.** A live Llama-3.3-70B agent's targeted attack success went from 9/140 to 0/140 over pre-registered injections in the workspace suite. The full four-suite deterministic run scored 0/949 attack success with 949/949 unattacked utility. Both are scoped as small experiments.
+- **A defect I found in my own integration.** An eight-case OpenAI Responses API workflow exposed a role-placement error (8/8 declined). I kept the original traces. A frozen developer-role correction completed 2/3 authorized workflows and declined 5/5 restricted ones. One refusal is still open.
+- **Built to be re-run.** Ed25519-signed evidence archives replay offline in one command. 39 Lean 4 proofs sit behind a gate that fails on any unproven `sorry`. 5,171 tests passed in the 19 Oct 2026 smoke run.
+- **Self-audit.** I audited 919 of the project's own documents and published all 141 dated findings in the README, including overstatements in my earlier closeouts.
 
-<br/>
+Software DOI [10.5281/zenodo.21737792](https://doi.org/10.5281/zenodo.21737792) · 92 releases · [case study](https://raoufabedini.dev/projects/project-simurgh)
 
-<!-- Portfolio section divider: cyan → purple → amber -->
-<img src="Assets/divider.svg" width="100%"/>
+## Preprints
 
-<br/>
+All sole-author, all on Zenodo.
 
-<!-- ══════════════════════════════ ABOUT ══════════════════════════════ -->
-<div align="center">
+| Paper | Finding | DOI |
+|:--|:--|:--|
+| **The Invisible Window**<br/>Screen-capture evasion in WebRTC proctoring | Documented display-affinity APIs on Windows and macOS let a window stay visible on the monitor while contributing zero pixels to screen capture: 100% evasion in every tested lab configuration, including macOS 26. Disclosed to Microsoft MSRC (Feb 2026) and Apple Product Security (Mar 2026) before publication. Both classified the behavior as by design. | [20376495](https://doi.org/10.5281/zenodo.20376495) |
+| **Aion-BibleQA**<br/>Retrieval and citation faithfulness in a RAG system | A 40-question benchmark for retrieval quality, citation support and false-premise robustness: R@5 of 0.941, mean citation support of 0.978, zero unsupported citations and 6/6 false-premise refusals. | [20522874](https://doi.org/10.5281/zenodo.20522874) |
+| **Banking Shield**<br/>Machine-checked absence claims | Machine-checked proofs that privacy-sensitive values never reach AI-generated explanations. Five-tester dry run, zero leaks. | [20675513](https://doi.org/10.5281/zenodo.20675513) |
+| **Simurgh device-integrity proofs** | Privacy-preserving device integrity proofs for high-stakes sessions. | [20374849](https://doi.org/10.5281/zenodo.20374849) |
+| **Student-society event pilot** | 31 consented sessions. Ballot choices excluded from records. HMAC-chained audit logs. | [20549736](https://doi.org/10.5281/zenodo.20549736) |
 
-### `> ./identity --singularity`
+The Invisible Window proof-of-concept code is withheld on dual-use grounds. The [public record](https://github.com/Raoof128/invisible-window-research) and the [case study](https://raoufabedini.dev/projects/invisible-window-research) cover the finding, its limits, the disclosure and the citation.
 
-</div>
+## Tools I ship
 
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║  🌌  Mapping where AI capability eclipses human oversight vectors       ║
-║  📡  "Invisible Window" · "Project Simurgh" — Research at the Horizon   ║
-║  🤖  Calibrating AI for Anthropic · Claude Capability Evaluation        ║
-║  🌀  LLM Safety · Capability Uplift · Dual-Use Risk at Singularity      ║
-║  💻  Systems Depth — C/C++ Engines · Python Tooling · Swift             ║
-║  🔭  Orbiting: Aion · SimurghForge · Nexus OS                          ║
-║  🎓  B.Cyber Security — Macquarie University · Nov 2026                 ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+| Project | Built with | What it does |
+|:--|:--|:--|
+| [**SentinelSSH**](https://github.com/Raoof128/sentinel-ssh) | Rust · MCP | Gives AI agents policy-scoped, read-only inspection of Linux hosts through 17 typed tools and no shell. |
+| [**Project Zurvan**](https://github.com/Raoof128/Project-Zurvan) | Python · Rust · SQLite | Local-first knowledge engine that serves claims and decisions to agents over MCP. 218 tests. |
+| [**Gmail MCP**](https://github.com/Raoof128/gmail-mcp) | TypeScript · Cloudflare Workers | Multi-account Gmail server with server-enforced allow, ask or deny policy and attachment transfers through a local companion. Pre-release. |
+| [**Mehr Guard**](https://github.com/Raoof128/MehrGuard) | Kotlin Multiplatform | Offline QR and URL phishing scanner. Ensemble ML plus 25 heuristics at 87% F1 in under 5 ms, with a 19-scenario red-team mode. |
+| [**SentinelFlow**](https://github.com/Raoof128/SentinelFlow) | C++17 · libpcap | Network intrusion detection at 500,000+ packets/sec in a synthetic single-thread benchmark. |
+| [**NanoMatch**](https://github.com/Raoof128/NanoMatch) | C++20 | Price-time matching engine. The repository reports 9.29M mixed add/cancel operations per second, single thread, synthetic load. |
+| [**Syllabus-Sync**](https://syllabus-sync.app) | Next.js · TypeScript · Postgres | Macquarie University Incubator startup that converts university syllabi into structured data. I am a cofounder and led the security backend: WebAuthn passkeys, TOTP MFA, row-level security and tamper-resistant audit logging. 503 tests across 92 files. |
 
-<br/>
+Languages I work in: Python, TypeScript, C, C++17/20, Rust, Kotlin, Lean 4, SQL and Bash.
 
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
+## Background
 
-<br/>
-
-<!-- ══════════════════════════════ RESEARCH ══════════════════════════════ -->
-<div align="center">
-
-### `> deep-scan --sector=research --depth=∞`
-
-</div>
-
-<table>
-<tr>
-<td>
-
-**📄 The Invisible Window** &nbsp; ![V2.0](https://img.shields.io/badge/V2.0-f59e0b?style=flat-square) ![2026](https://img.shields.io/badge/2026-8b5cf6?style=flat-square)
-
-*Exploiting OS-Level Display Affinity to Bypass WebRTC Proctoring Systems*
-
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Win32](https://img.shields.io/badge/Win32_API-09090b?style=flat-square&logo=windows&logoColor=06b6d4) ![ScreenCaptureKit](https://img.shields.io/badge/ScreenCaptureKit-09090b?style=flat-square&logo=apple&logoColor=white) ![WebRTC](https://img.shields.io/badge/WebRTC-8b5cf6?style=flat-square)
-
-- **100% screen capture evasion** across Windows 10/11 and macOS 14–26 via W3C Screen Capture / OS compositing trust boundary violation — zero artefacts over 10,000+ frames
-- **Novel finding:** Apple's macOS 15 ScreenCaptureKit mitigation remains ineffective on macOS 26 — contradicting vendor assumptions through pixel-level forensic verification
-- **Coordinated disclosure** to 3 proctoring vendors (ProctorU, Proctorio, Respondus) + 2 OS vendors (Microsoft, Apple) following OWASP/FIRST/CISA frameworks
-- Documented measurable **AI capability uplift** and characterised **intent-vs-artefact safety boundaries** — directly relevant to ASL threshold calibration
-
-<div align="center">
-
-[![Preprint](https://img.shields.io/badge/Preprint-8b5cf6?style=for-the-badge&logo=readthedocs&logoColor=ffffff)](https://raoufabedini.dev/projects/invisible-window-research) &nbsp; [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20319832-7c3aed?style=for-the-badge&logo=zenodo&logoColor=ffffff)](https://doi.org/10.5281/zenodo.20319832)
-
-</div>
-
-</td>
-</tr>
-<tr>
-<td>
-
-**📄 Project Simurgh** &nbsp; ![Stage 2](https://img.shields.io/badge/Stage_2-22c55e?style=flat-square) ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
-
-*Privacy-Preserving Device Integrity Proofs for Capture-Resistant High-Stakes Sessions*
-
-![Ed25519](https://img.shields.io/badge/Ed25519-06b6d4?style=flat-square) ![ECDSA P-256](https://img.shields.io/badge/ECDSA_P--256-8b5cf6?style=flat-square) ![WebExtension](https://img.shields.io/badge/WebExtension-09090b?style=flat-square&logo=googlechrome&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-- Replaces surveillance-first visual monitoring with **signed, metadata-only integrity proofs** — no screen-capture data collected at any point
-- Combines browser behavioural telemetry, local OS-metadata daemons, and **Ed25519 + ECDSA P-256 cryptographic challenge-response proofs** to verify session authenticity
-- **Stage 2 working prototype on `main`**: instructor risk dashboard, student privacy UI, HMAC-SHA256 tamper-evident audit chain, macOS native display-affinity scanner
-- Companion attack paper: *The Invisible Window* — the defence is designed to neutralise the exact attack class the companion paper documents
-
-<div align="center">
-
-[![Preprint](https://img.shields.io/badge/Preprint-06b6d4?style=for-the-badge&logo=readthedocs&logoColor=09090b)](https://raoufabedini.dev/projects/project-simurgh)
-
-</div>
-
-</td>
-</tr>
-<tr>
-<td>
-
-**🛠 [Zurvan](https://github.com/Raoof128/Project-Zurvan)** &nbsp; ![Active](https://img.shields.io/badge/●_Active-a78bfa?style=flat-square)
-
-*Local-First LLM-Powered Knowledge Engine — Markdown Wiki + Hybrid Search + MCP*
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite_FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white) ![MCP](https://img.shields.io/badge/MCP_stdio-7c3aed?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-- Ingests raw sources (PDF, MD, TXT, images) and extracts structured knowledge — claims, entities, concepts, decisions — into a **git-diffable, Obsidian-compatible Markdown wiki**
-- Three local SQLite indices: `registry.sqlite` (deduplication), `search.sqlite` (FTS5 + sentence-transformer embeddings for hybrid search), `graph.sqlite` (wikilink knowledge graph)
-- Exposes a **local MCP server over stdio** — Claude Code, Cursor, and Codex-style agents query it via `zurvan_search`, `zurvan_context`, and `zurvan_graph_*` tools; no cloud, no SDK, no LLM loops
-- Designed as a pure storage + retrieval engine: all reasoning is done externally by the calling agent — immutable raw sources, no fabricated citations
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Project--Zurvan-7c3aed?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/Raoof128/Project-Zurvan)
-
-</div>
-
-</td>
-</tr>
-</table>
+- **AI Safety Evaluator (Claude)**, Alignerr, Jan to Mar 2026. Anthropic safety-evaluation program. Stress-tested Claude's safety guardrails, assessed outputs for exploitable code and harmful patterns, analyzed circumvention methods and delivered rubric-based findings.
+- **Cofounder**, Syllabus-Sync, May 2026 to present.
+- **Security Engineer and Full-Stack Developer**, freelance, Jan 2024 to present.
+- **IT Manager and Security Operations**, Iran Pharmacy, Aug 2019 to Jan 2024. Investigated unauthorized-access incidents and built detection workflows that cut manual triage by about 30%.
+- **Bachelor of Cyber Security**, Macquarie University, expected Jun 2027. The final session is fully online.
 
 <br/>
 
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
-
-<br/>
-
-<!-- ══════════════════════════════ SKILLS ══════════════════════════════ -->
-<div align="center">
-
-### `> enumerate --matrix=capabilities`
-
-<br/>
-
-**[ LANGUAGES ]**
-
-[![Python](https://skillicons.dev/icons?i=python&theme=dark)](https://www.python.org)
-[![C](https://skillicons.dev/icons?i=c&theme=dark)](https://en.cppreference.com/w/c)
-[![C++](https://skillicons.dev/icons?i=cpp&theme=dark)](https://isocpp.org)
-[![TypeScript](https://skillicons.dev/icons?i=ts&theme=dark)](https://www.typescriptlang.org)
-[![JavaScript](https://skillicons.dev/icons?i=js&theme=dark)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Swift](https://skillicons.dev/icons?i=swift&theme=dark)](https://swift.org)
-[![Kotlin](https://skillicons.dev/icons?i=kotlin&theme=dark)](https://kotlinlang.org)
-[![Bash](https://skillicons.dev/icons?i=bash&theme=dark)](https://www.gnu.org/software/bash/)
-[![Go](https://skillicons.dev/icons?i=go&theme=dark)](https://go.dev)
-&nbsp;
-[![SQL](https://img.shields.io/badge/SQL-06b6d4?style=flat-square&logo=postgresql&logoColor=ffffff)](https://www.postgresql.org)
-
-**[ AI / ML ]**
-
-[![LLM Evaluation](https://img.shields.io/badge/LLM_Evaluation-7c3aed?style=for-the-badge&logoColor=ffffff)](https://www.anthropic.com)
-[![NLP](https://img.shields.io/badge/NLP-ec4899?style=for-the-badge&logoColor=ffffff)](https://en.wikipedia.org/wiki/Natural_language_processing)
-[![AI Safety](https://img.shields.io/badge/AI_Safety-fbbf24?style=for-the-badge&logoColor=030014)](https://www.anthropic.com/research)
-[![Generative AI](https://img.shields.io/badge/Generative_AI-a78bfa?style=for-the-badge&logoColor=030014)](https://docs.anthropic.com)
-
-**[ SYSTEMS & TOOLS ]**
-
-[![Linux](https://skillicons.dev/icons?i=linux&theme=dark)](https://www.linux.org)
-[![Docker](https://skillicons.dev/icons?i=docker&theme=dark)](https://www.docker.com)
-[![CMake](https://skillicons.dev/icons?i=cmake&theme=dark)](https://cmake.org)
-[![GitHub Actions](https://skillicons.dev/icons?i=githubactions&theme=dark)](https://github.com/features/actions)
-[![Cloudflare](https://skillicons.dev/icons?i=cloudflare&theme=dark)](https://www.cloudflare.com)
-[![FastAPI](https://skillicons.dev/icons?i=fastapi&theme=dark)](https://fastapi.tiangolo.com)
-&nbsp;
-[![Google Test](https://img.shields.io/badge/Google_Test-06b6d4?style=flat-square&logo=google&logoColor=ffffff)](https://google.github.io/googletest/)
-[![libpcap](https://img.shields.io/badge/libpcap-f59e0b?style=flat-square&logoColor=09090b)](https://www.tcpdump.org)
-
-**[ SECURITY TOOLING ]**
-
-[![Kali Linux](https://skillicons.dev/icons?i=kali&theme=dark)](https://www.kali.org)
-&nbsp;
-[![Burp Suite](https://img.shields.io/badge/Burp_Suite-8b5cf6?style=for-the-badge&logoColor=ffffff)](https://portswigger.net/burp)
-[![Wireshark](https://img.shields.io/badge/Wireshark-06b6d4?style=for-the-badge&logo=wireshark&logoColor=09090b)](https://www.wireshark.org)
-[![Nmap](https://img.shields.io/badge/Nmap-f59e0b?style=for-the-badge&logoColor=09090b)](https://nmap.org)
-
-**[ FRAMEWORKS ]**
-
-[![OWASP](https://img.shields.io/badge/OWASP-7c3aed?style=for-the-badge&logoColor=ffffff)](https://owasp.org)
-[![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-ec4899?style=for-the-badge&logoColor=ffffff)](https://attack.mitre.org)
-[![NIST](https://img.shields.io/badge/NIST-fbbf24?style=for-the-badge&logoColor=030014)](https://www.nist.gov/cyberframework)
-[![W3C Screen Capture](https://img.shields.io/badge/W3C_Screen_Capture-a78bfa?style=for-the-badge&logoColor=030014)](https://www.w3.org/TR/screen-capture/)
-
-</div>
-
-<br/>
-
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
-
-<br/>
-
-<!-- ══════════════════════════════ PROJECTS ══════════════════════════════ -->
-<div align="center">
-
-### `> probe --orbit=projects --traverse-all`
-
-</div>
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-#### ⚙️ Systems & Security
-
-> **[NanoMatch](https://github.com/Raoof128/NanoMatch)** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
->
-> ![C++20](https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white) ![GTest](https://img.shields.io/badge/GTest-06b6d4?style=flat-square&logo=google&logoColor=09090b)
->
-> High-performance matching engine processing **1M+ orders/sec** with sub-microsecond latency — red-black tree price levels, custom memory pool allocator, p50/p99 benchmarks
-
-> **[SentinelFlow](https://github.com/Raoof128/SentinelFlow)** &nbsp; ![2026](https://img.shields.io/badge/2026-f59e0b?style=flat-square)
->
-> ![C++17](https://img.shields.io/badge/C++17-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![libpcap](https://img.shields.io/badge/libpcap-8b5cf6?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-09090b?style=flat-square&logo=linux&logoColor=white)
->
-> Real-time packet processing engine parsing **500K+ packets/sec** — protocol dissection (Ethernet/IPv4/TCP/UDP/ICMP/DNS), signature-based detection, stateful analysis
-
-> **[SimurghForge](https://github.com/Raoof128/SimurghForge)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square)
->
-> ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
->
-> Universal file converter — batch conversion pipeline supporting multiple formats, local-first privacy-preserving document processing
-
-</td>
-<td valign="top" width="50%">
-
-#### 🤖 Full-Stack & AI
-
-> **[Nexus OS](https://github.com/Raoof128/Nexus-OS)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-ec4899?style=flat-square)
->
-> ![React 19](https://img.shields.io/badge/React_19-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Tailwind v4](https://img.shields.io/badge/Tailwind_v4-06b6d4?style=flat-square&logo=tailwindcss&logoColor=09090b) ![Zustand](https://img.shields.io/badge/Zustand-8b5cf6?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
->
-> Cyberpunk browser OS — 4-phase windowed desktop with edge-snap tiling, app launcher, Settings / System Monitor / Notes / Terminal apps, and **Aion** integrated as a native windowed app
-
-> **[Aion](https://github.com/Raoof128/Aion)** &nbsp; ![WIP](https://img.shields.io/badge/WIP-f59e0b?style=flat-square) ![Nexus OS App](https://img.shields.io/badge/Nexus_OS_App-ec4899?style=flat-square)
->
-> ![React Native](https://img.shields.io/badge/React_Native-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=09090b) ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8b5cf6?style=flat-square)
->
-> AI-powered Bible companion with **Agentic Hybrid RAG** chat — keyword + semantic search over pgvector, dynamic verse cards, Perplexity-style interface grounded via Gemini 3 Flash; integrates into **Nexus OS** as a native windowed app (Home / Chat / Reader views via SSE Edge Functions)
-
-> **[Mehr Guard](https://github.com/Raoof128/MehrGuard)** &nbsp; ![2024](https://img.shields.io/badge/2024-06b6d4?style=flat-square)
->
-> ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=09090b) ![iOS](https://img.shields.io/badge/iOS-09090b?style=flat-square&logo=apple&logoColor=white)
->
-> Cross-platform offline threat detection with local ML classification — submitted to KotlinConf global developer conference
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-*70+ additional public projects covering vulnerability research, systems programming, AI/ML tooling, and cloud infrastructure*
-
-</div>
-
-<br/>
-
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
-
-<br/>
-
-<!-- ══════════════════════════════ CURRENTLY BUILDING ══════════════════════════════ -->
-<div align="center">
-
-### `> singularity-watch --builds=active`
-
-| 🛠 Project | Description | Stack | Status |
-|:---|:---|:---|:---:|
-| **Aion** | AI Bible companion · Agentic Hybrid RAG | ![React Native](https://img.shields.io/badge/React_Native-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=09090b) ![Gemini](https://img.shields.io/badge/Gemini-8b5cf6?style=flat-square) | ![Active](https://img.shields.io/badge/●_Active-a78bfa?style=flat-square) |
-| **SimurghForge** | Universal file converter · local-first | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Active](https://img.shields.io/badge/●_Active-a78bfa?style=flat-square) |
-| **Nexus OS** | Cyberpunk desktop environment | ![React](https://img.shields.io/badge/React-06b6d4?style=flat-square&logo=react&logoColor=09090b) ![Tailwind](https://img.shields.io/badge/Tailwind-06b6d4?style=flat-square&logo=tailwindcss&logoColor=09090b) | ![Active](https://img.shields.io/badge/●_Active-ec4899?style=flat-square) |
-
-</div>
-
-<br/>
-
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
-
-<br/>
-
-<!-- ══════════════════════════════ EDUCATION ══════════════════════════════ -->
-<div align="center">
-
-### `> query --archive=education --origin`
-
-| 🎓 Degree | 🏛 Institution | 📅 Period |
-|:---|:---|:---|
-| **Bachelor of Cyber Security** | Macquarie University | May 2024 – Nov 2026 |
-| **Diploma of Information Technology** | Macquarie University | Jul 2023 – May 2024 |
-
-*Coursework: Digital Forensics · Network Security · Systems Security · Cloud Computing · NLP & Machine Learning · Privacy-Preserving Data Analysis*
-
-</div>
-
-<br/>
-
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
-
-<br/>
-
-<!-- ══════════════════════════════ AI SAFETY & COMMUNITY ══════════════════════════════ -->
-<div align="center">
-
-### `> channel --frequency=ai-safety --decode`
-
-</div>
-
-> 🤖 **Anthropic** — Completed AI model evaluation (Claude Code Human Preference) — benchmarked LLM code outputs for quality, security, correctness, and reliability
-
-> 🔬 **Research Directions** — Proposed systematic uplift measurement across vulnerability classes, intent-vs-artefact safety boundary generalisation, and defensive application development to Anthropic's Fellows team
-
-> 🎓 **Mentoring** — Mentored peers in cybersecurity, C/C++ programming, and systems-level problem-solving at Macquarie University
-
-<br/>
-
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
-
-<br/>
-
-<!-- ══════════════════════════════ STATS ══════════════════════════════ -->
-<div align="center">
-
-### `> telemetry --live --cosmos`
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Raoof128&theme=dracula" width="100%"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Raoof128&theme=dracula" height="160em"/>
-&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Raoof128&theme=dracula" height="160em"/>
-&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Raoof128&theme=dracula" height="160em"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Raoof128&theme=dark&background=030014&border=7c3aed&stroke=7c3aed&ring=ec4899&fire=fbbf24&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=e2e8f0&hide_border=false" width="100%" alt="GitHub Streak"/>
-
-<br/>
-
-![Repos 70+](https://img.shields.io/badge/Public_Repos-70%2B-7c3aed?style=for-the-badge&logo=github&logoColor=white)
-![Research](https://img.shields.io/badge/Research_Papers-2-ec4899?style=for-the-badge&logo=readthedocs&logoColor=white)
-![Languages](https://img.shields.io/badge/Languages-9%2B-a78bfa?style=for-the-badge&logo=stackexchange&logoColor=white)
-![Followers](https://img.shields.io/github/followers/Raoof128?style=for-the-badge&color=fbbf24&labelColor=030014&label=Followers&logo=github&logoColor=white)
-![Years](https://img.shields.io/badge/Active_Since-2023-7c3aed?style=for-the-badge&logo=calendar&logoColor=white)
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/Raoof128/Raoof128/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
-
-</div>
-
-<br/>
-
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
-
-<br/>
-
-<!-- ══ ALIEN ══ -->
-<div align="center">
-
-### `> ./entity --walk`
-
-<img src="Assets/alien.svg" width="100%" alt="Alien mascot"/>
-
-</div>
-
-<br/>
-
-<!-- ══════════════════════════════ ACTIVITY GRAPH ══════════════════════════════ -->
-<div align="center">
-
-### `> trace --commit-field --realtime`
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Raoof128&bg_color=030014&color=a78bfa&line=7c3aed&point=ec4899&area=true&area_color=4c1d95&border_color=7c3aed&custom_title=Commit%20Activity%20%7C%20Raoof128&hide_border=false)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
-<br/>
-
-<!-- Portfolio section divider -->
-<img src="Assets/divider.svg" width="100%"/>
-
-<br/>
-
-<!-- ══════════════════════════════ CONNECT ══════════════════════════════ -->
-<div align="center">
-
-### `> establish-link --protocol=singularity`
-
-```
-> Initiating singularity link...
-> Protocol   : TLS 1.3  |  Auth: Mutual
-> Encryption : AES-256-GCM + Ed25519
-> Target     : Mohammad Raouf Abedini — Event Horizon Node
-> Status     : [✦] ONLINE — signal crossing the threshold
-```
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7c3aed?style=for-the-badge&logo=linkedin&logoColor=ffffff&labelColor=030014)](https://www.linkedin.com/in/mohammad-raouf-abedini-885a9226a/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-ec4899?style=for-the-badge&logo=googlechrome&logoColor=ffffff&labelColor=030014)](https://raoufabedini.dev)
-[![Email](https://img.shields.io/badge/Email-Contact-fbbf24?style=for-the-badge&logo=gmail&logoColor=030014&labelColor=030014)](mailto:raoof.r12@gmail.com)
-[![ORCID](https://img.shields.io/badge/ORCID-Research-a6ce39?style=for-the-badge&logo=orcid&logoColor=030014&labelColor=030014)](https://orcid.org/0009-0000-6214-258X)
-
-<br/>
-
-<img src="Assets/footer.svg" width="100%" alt="Footer"/>
-
-</div>
+<a href="https://raoufabedini.dev/contact">
+  <img src="Assets/taskbar.svg" width="100%" alt="Available full-time from December 2026. Sydney, relocating to San Francisco. raoufabedini.dev"/>
+</a>
+
+<p align="center">
+  <sub>Security reports: <a href="https://raoufabedini.dev/.well-known/security.txt">security.txt</a></sub>
+</p>
