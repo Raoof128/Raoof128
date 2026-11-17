@@ -33,7 +33,7 @@ More from the same project:
 - **Built to be re-run.** Ed25519-signed evidence archives replay offline in one command. 39 Lean 4 proofs sit behind a gate that fails on any unproven `sorry`. 5,171 tests passed in the 19 Oct 2026 smoke run.
 - **Self-audit.** I audited 919 of the project's own documents and published all 141 dated findings in the README, including overstatements in my earlier closeouts.
 
-Software DOI [10.5281/zenodo.21737792](https://doi.org/10.5281/zenodo.21737792) · 92 releases · [case study](https://raoufabedini.dev/projects/project-simurgh)
+Software DOI [10.5281/zenodo.21737792](https://doi.org/10.5281/zenodo.21737792) · 93 releases · [case study](https://raoufabedini.dev/projects/project-simurgh)
 
 ## Preprints
 
@@ -54,12 +54,12 @@ The Invisible Window proof-of-concept code is withheld on dual-use grounds. The 
 | Project | Built with | What it does |
 |:--|:--|:--|
 | [**SentinelSSH**](https://github.com/Raoof128/sentinel-ssh) | Rust · MCP | Gives AI agents policy-scoped, read-only inspection of Linux hosts through 17 typed tools and no shell. |
-| [**Project Zurvan**](https://github.com/Raoof128/Project-Zurvan) | Python · Rust · SQLite | Local-first knowledge engine that serves claims and decisions to agents over MCP. 218 tests. |
+| [**Project Zurvan**](https://github.com/Raoof128/Project-Zurvan) | Python · Rust · SQLite | Local-first knowledge engine that serves claims and decisions to agents over MCP. 4,109 tests. |
 | [**Gmail MCP**](https://github.com/Raoof128/gmail-mcp) | TypeScript · Cloudflare Workers | Multi-account Gmail server with server-enforced allow, ask or deny policy and attachment transfers through a local companion. Pre-release. |
 | [**Mehr Guard**](https://github.com/Raoof128/MehrGuard) | Kotlin Multiplatform | Offline QR and URL phishing scanner. Ensemble ML plus 25 heuristics at 87% F1 in under 5 ms, with a 19-scenario red-team mode. |
 | [**SentinelFlow**](https://github.com/Raoof128/SentinelFlow) | C++17 · libpcap | Network intrusion detection at 500,000+ packets/sec in a synthetic single-thread benchmark. |
 | [**NanoMatch**](https://github.com/Raoof128/NanoMatch) | C++20 | Price-time matching engine. The repository reports 9.29M mixed add/cancel operations per second, single thread, synthetic load. |
-| [**Syllabus-Sync**](https://syllabus-sync.app) | Next.js · TypeScript · Postgres | Macquarie University Incubator startup that converts university syllabi into structured data. I am a cofounder and led the security backend: WebAuthn passkeys, TOTP MFA, row-level security and tamper-resistant audit logging. 503 tests across 92 files. |
+| [**Syllabus-Sync**](https://syllabus-sync.app) | Next.js · TypeScript · Postgres | Macquarie University Incubator startup that converts university syllabi into structured data. I am a cofounder and led the security backend: WebAuthn passkeys, TOTP MFA, row-level security and tamper-resistant audit logging. 1,399 tests across 167 files. |
 
 Languages I work in: Python, TypeScript, C, C++17/20, Rust, Kotlin, Lean 4, SQL and Bash.
 
