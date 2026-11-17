@@ -13,7 +13,7 @@
 
 I work on keeping tool-using AI agents safe. I build host-side controls for what an agent is permitted to do, then run matched-control experiments against live models to find out whether those controls change anything. When they change nothing, that goes in the write-up too.
 
-Before this I spent seven years in security operations and engineering. I have five sole-author preprints, two coordinated vendor disclosures (Microsoft and Apple), and I evaluated Claude for exploitable code and guardrail circumvention in Anthropic's safety-evaluation program through Alignerr.
+Before this I spent seven years in security operations and engineering. I have five sole-author preprints, two coordinated vendor disclosures (Microsoft and Apple), and I evaluated Claude for exploitable code and guardrail circumvention in Anthropic's safety-evaluation program. That work was through Alignerr; I was not an Anthropic employee.
 
 ## The result I lead with
 
@@ -41,13 +41,13 @@ All sole-author, all on Zenodo.
 
 | Paper | Finding | DOI |
 |:--|:--|:--|
-| **The Invisible Window**<br/>Screen-capture evasion in WebRTC proctoring | Documented display-affinity APIs on Windows and macOS let a window stay visible on the monitor while contributing zero pixels to screen capture: 100% evasion in every tested lab configuration, including macOS 26. Disclosed to Microsoft MSRC (Feb 2026) and Apple Product Security (Mar 2026) before publication. Both classified the behavior as by design. | [20376495](https://doi.org/10.5281/zenodo.20376495) |
-| **Aion-BibleQA**<br/>Retrieval and citation faithfulness in a RAG system | A 40-question benchmark for retrieval quality, citation support and false-premise robustness: R@5 of 0.941, mean citation support of 0.978, zero unsupported citations and 6/6 false-premise refusals. | [20522874](https://doi.org/10.5281/zenodo.20522874) |
+| **The Invisible Window**<br/>Screen-capture evasion in WebRTC proctoring | Documented display-affinity APIs on Windows and macOS let a window stay visible on the monitor while contributing zero pixels to the tested capture paths: 100% evasion in every tested lab configuration. On macOS 26 the tests covered native capture APIs, not browser capture, and no commercial proctoring product was tested. Disclosed to Microsoft MSRC (Feb 2026) and Apple Product Security (Mar 2026) before publication. Both classified the behavior as by design. | [20376495](https://doi.org/10.5281/zenodo.20376495) |
+| **Aion-BibleQA**<br/>Retrieval and citation faithfulness in a RAG system | A 40-question benchmark for retrieval quality, citation support and false-premise robustness: R@5 of 0.941 (development set, 40 author-written questions), mean citation support of 0.978, zero unsupported citations (LLM judge) and 6/6 refusal-category questions refused (4 false-premise, 2 adversarial). The benchmark has no held-out split. | [20522874](https://doi.org/10.5281/zenodo.20522874) |
 | **Banking Shield**<br/>Machine-checked absence claims | Machine-checked evidence, on a fictional research prototype, about what an AI-style explanation layer did not receive, transmit or claim. Formative dry run with five internal testers. | [20675513](https://doi.org/10.5281/zenodo.20675513) |
 | **Simurgh device-integrity proofs** | Privacy-preserving device integrity proofs for high-stakes sessions. | [20374849](https://doi.org/10.5281/zenodo.20374849) |
 | **Student-society event pilot** | 31 consented sessions. Ballot choices excluded from records. HMAC-chained audit logs. | [20549736](https://doi.org/10.5281/zenodo.20549736) |
 
-The Invisible Window proof-of-concept code is withheld on dual-use grounds. The [public record](https://github.com/Raoof128/invisible-window-research) and the [case study](https://raoufabedini.dev/projects/invisible-window-research) cover the finding, its limits, the disclosure and the citation.
+The full Invisible Window proof-of-concept code is withheld on dual-use grounds; a minimal macOS test fixture is public in Project-Simurgh. The [public record](https://github.com/Raoof128/invisible-window-research) and the [case study](https://raoufabedini.dev/projects/invisible-window-research) cover the finding, its limits, the disclosure and the citation.
 
 ## Tools I ship
 
@@ -65,7 +65,7 @@ Languages I work in: Python, TypeScript, C, C++17/20, Rust, Kotlin, Lean 4, SQL 
 
 ## Background
 
-- **AI Safety Evaluator (Claude)**, Alignerr, Jan to Mar 2026. Anthropic safety-evaluation program. Stress-tested Claude's safety guardrails, assessed outputs for exploitable code and harmful patterns, analyzed circumvention methods and delivered rubric-based findings.
+- **AI Safety Evaluator (Claude)**, Alignerr, Jan to Mar 2026. Anthropic safety-evaluation program, engaged through Alignerr (not an Anthropic employee). Stress-tested Claude's safety guardrails, assessed outputs for exploitable code and harmful patterns, analyzed circumvention methods and delivered rubric-based findings.
 - **Cofounder**, Syllabus-Sync, May 2026 to present.
 - **Security Engineer and Full-Stack Developer**, freelance, Jan 2024 to present.
 - **IT Manager and Security Operations**, Iran Pharmacy, Aug 2019 to Jan 2024. Investigated unauthorized-access incidents and built detection workflows that cut manual triage by about 30%.
