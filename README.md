@@ -43,7 +43,7 @@ All sole-author, all on Zenodo.
 |:--|:--|:--|
 | **The Invisible Window**<br/>Screen-capture evasion in WebRTC proctoring | Documented display-affinity APIs on Windows and macOS let a window stay visible on the monitor while contributing zero pixels to screen capture: 100% evasion in every tested lab configuration, including macOS 26. Disclosed to Microsoft MSRC (Feb 2026) and Apple Product Security (Mar 2026) before publication. Both classified the behavior as by design. | [20376495](https://doi.org/10.5281/zenodo.20376495) |
 | **Aion-BibleQA**<br/>Retrieval and citation faithfulness in a RAG system | A 40-question benchmark for retrieval quality, citation support and false-premise robustness: R@5 of 0.941, mean citation support of 0.978, zero unsupported citations and 6/6 false-premise refusals. | [20522874](https://doi.org/10.5281/zenodo.20522874) |
-| **Banking Shield**<br/>Machine-checked absence claims | Machine-checked proofs that privacy-sensitive values never reach AI-generated explanations. Five-tester dry run, zero leaks. | [20675513](https://doi.org/10.5281/zenodo.20675513) |
+| **Banking Shield**<br/>Machine-checked absence claims | Machine-checked evidence, on a fictional research prototype, about what an AI-style explanation layer did not receive, transmit or claim. Formative dry run with five internal testers. | [20675513](https://doi.org/10.5281/zenodo.20675513) |
 | **Simurgh device-integrity proofs** | Privacy-preserving device integrity proofs for high-stakes sessions. | [20374849](https://doi.org/10.5281/zenodo.20374849) |
 | **Student-society event pilot** | 31 consented sessions. Ballot choices excluded from records. HMAC-chained audit logs. | [20549736](https://doi.org/10.5281/zenodo.20549736) |
 
@@ -56,10 +56,10 @@ The Invisible Window proof-of-concept code is withheld on dual-use grounds. The 
 | [**SentinelSSH**](https://github.com/Raoof128/sentinel-ssh) | Rust · MCP | Gives AI agents policy-scoped, read-only inspection of Linux hosts through 17 typed tools and no shell. |
 | [**Project Zurvan**](https://github.com/Raoof128/Project-Zurvan) | Python · Rust · SQLite | Local-first knowledge engine that serves claims and decisions to agents over MCP. 4,109 tests. |
 | [**Gmail MCP**](https://github.com/Raoof128/gmail-mcp) | TypeScript · Cloudflare Workers | Multi-account Gmail server with server-enforced allow, ask or deny policy and attachment transfers through a local companion. Pre-release. |
-| [**Mehr Guard**](https://github.com/Raoof128/MehrGuard) | Kotlin Multiplatform | Offline QR and URL phishing scanner. Ensemble ML plus 25 heuristics at 87% F1 in under 5 ms, with a 19-scenario red-team mode. |
-| [**SentinelFlow**](https://github.com/Raoof128/SentinelFlow) | C++17 · libpcap | Network intrusion detection at 500,000+ packets/sec in a synthetic single-thread benchmark. |
-| [**NanoMatch**](https://github.com/Raoof128/NanoMatch) | C++20 | Price-time matching engine. The repository reports 9.29M mixed add/cancel operations per second, single thread, synthetic load. |
-| [**Syllabus-Sync**](https://syllabus-sync.app) | Next.js · TypeScript · Postgres | Macquarie University Incubator startup that converts university syllabi into structured data. I am a cofounder and led the security backend: WebAuthn passkeys, TOTP MFA, row-level security and tamper-resistant audit logging. 1,399 tests across 167 files. |
+| [**Mehr Guard**](https://github.com/Raoof128/MehrGuard) | Kotlin Multiplatform | QR and URL phishing scanner with on-device analysis: 25 heuristics plus a small model. CI measures 90.7% F1 on the repository's 100 author-written URLs, which is not a held-out benchmark. 18-scenario red-team mode. |
+| [**SentinelFlow**](https://github.com/Raoof128/SentinelFlow) | C++17 · libpcap | Network intrusion detection: libpcap capture, protocol parsing, signature rules and stateful detectors. Its benchmark covers header parsing only. |
+| [**NanoMatch**](https://github.com/Raoof128/NanoMatch) | C++20 | Price-time matching engine. The repository reports 9.29M operations per second on one thread with synthetic load, about 80% of them adds; its README says what the figure covers. |
+| [**Syllabus-Sync**](https://syllabus-sync.app) | Next.js · TypeScript · Postgres | Macquarie University Incubator startup: a student platform for academic planning (units, deadlines, calendar, campus map). Syllabus parsing is planned and not built. I am a cofounder and led the security backend: WebAuthn passkeys, TOTP MFA, row-level security and append-only audit logging. 1,399 tests across 167 files. |
 
 Languages I work in: Python, TypeScript, C, C++17/20, Rust, Kotlin, Lean 4, SQL and Bash.
 
